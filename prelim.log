@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.19)  19 JUN 2015 12:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.19)  19 JUN 2015 12:50
 entering extended mode
 **prelim.tex
 (C:\Users\czyzc\Documents\GitHub\prelim\prelim.tex
@@ -741,117 +741,150 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 (C:\Users\czyzc\Documents\GitHub\prelim\prelim.toc)
 \tf@toc=\write6
  [2]
-Overfull \hbox (0.5498pt too wide) in paragraph at lines 104--104
-|\T1/pplj/m/n/10 1. Ex-plain the dis-tinc-tion be-tween al-lelic het-ero-gene-i
-ty, ge-netic (lo-cus)
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 104.
+
+Overfull \hbox (6.54602pt too wide) in paragraph at lines 104--104
+|\T1/pplj/b/n/10.95 1. Ex-plain the dis-tinc-tion be-tween al-lelic het-ero-gen
+e-ity, ge-netic
  []
 
 
-Overfull \hbox (0.3098pt too wide) in paragraph at lines 108--108
-|\T1/pplj/m/n/10 2. What is the re-la-tion-ship be-tween the in-breed-ing co-ef
--fi-cient, kin-ship
+Overfull \hbox (8.47316pt too wide) in paragraph at lines 104--104
+\T1/pplj/b/n/10.95 (lo-cus) het-ero-gene-ity, and clin-i-cal het-ero-gene-ity. 
+Give ex-am-ples
  []
 
 
-Overfull \hbox (22.11981pt too wide) in paragraph at lines 108--108
-\T1/pplj/m/n/10 co-ef-fi-cient, and co-ef-fi-cient of re-lat-ed-ness? How are t
-hey cal-cu-lated in pedi-
+Overfull \hbox (2.03467pt too wide) in paragraph at lines 119--119
+|\T1/pplj/b/n/10.95 2. What is the re-la-tion-ship be-tween the in-breed-ing co
+-ef-fi-cient,
  []
 
 
-Overfull \hbox (8.85979pt too wide) in paragraph at lines 112--112
-|\T1/pplj/m/n/10 3. What are the key dis-tin-guish-ing char-ac-ter-is-tics of p
-edi-grees seg-re-gat-
+Overfull \hbox (10.6742pt too wide) in paragraph at lines 119--119
+\T1/pplj/b/n/10.95 kin-ship co-ef-fi-cient, and co-ef-fi-cient of re-lat-ed-nes
+s? How are they
  []
 
 
-Overfull \hbox (17.76984pt too wide) in paragraph at lines 112--112
-\T1/pplj/m/n/10 ing au-to-so-mal dom-i-nant, au-to-so-mal re-ces-sive, X-linked
-, Y-linked, and mi-
+Overfull \hbox (0.1513pt too wide) in paragraph at lines 119--119
+\T1/pplj/b/n/10.95 cal-cu-lated in pedi-grees? Can they be es-ti-mated in the a
+b-sence
  []
 
 
-Overfull \hbox (9.44981pt too wide) in paragraph at lines 116--116
-|\T1/pplj/m/n/10 4. Ex-plain the "non-Mendelian" con-cepts of uni-parental di-s
--omy and im-
+Overfull \hbox (1.77182pt too wide) in paragraph at lines 123--123
+|\T1/pplj/b/n/10.95 3. What are the key dis-tin-guish-ing char-ac-ter-is-tics o
+f pedi-grees
  []
 
 
-Overfull \hbox (13.12976pt too wide) in paragraph at lines 116--116
-\T1/pplj/m/n/10 print-ing. How would these be man-i-fested in pedi-grees and ho
-w are they
+Overfull \hbox (10.50986pt too wide) in paragraph at lines 123--123
+\T1/pplj/b/n/10.95 seg-re-gat-ing au-to-so-mal dom-i-nant, au-to-so-mal re-ces-
+sive, X-linked,
  []
 
 
-Overfull \hbox (5.3698pt too wide) in paragraph at lines 120--120
-|\T1/pplj/m/n/10 5. What ev-i-dence is there for the pres-ence of mod-i-fier lo
-ci? How is this
+Overfull \hbox (9.08647pt too wide) in paragraph at lines 127--127
+|\T1/pplj/b/n/10.95 4. Ex-plain the "non-Mendelian" con-cepts of uni-parental d
+i-s-omy
  []
 
 
-Overfull \hbox (20.6098pt too wide) in paragraph at lines 120--120
-\T1/pplj/m/n/10 re-lated to the con-cept of epis-ta-sis and how is it dis-tinct
- (or not) from poly-
+Overfull \hbox (0.19502pt too wide) in paragraph at lines 127--127
+\T1/pplj/b/n/10.95 and im-print-ing. How would these be man-i-fested in pedi-gr
+ees
  []
 
 
-Overfull \hbox (9.40984pt too wide) in paragraph at lines 124--124
-|\T1/pplj/m/n/10 6. What are dis-tinc-tions among the con-cepts link-age, link-
-age dis-e-qui-lib-
+Overfull \hbox (7.83807pt too wide) in paragraph at lines 127--127
+\T1/pplj/b/n/10.95 and how are they demon-strated at the cel-lu-lar or molec-u-
+lar lev-
  []
 
 
-Overfull \hbox (11.1198pt too wide) in paragraph at lines 124--124
-\T1/pplj/m/n/10 rium, and as-so-ci-a-tion? Un-der what cir-cum-stances would ea
-ch be prefer-
+Overfull \hbox (12.33853pt too wide) in paragraph at lines 131--131
+|\T1/pplj/b/n/10.95 5. What ev-i-dence is there for the pres-ence of mod-i-fier
+ loci? How
  []
 
 
-Overfull \hbox (9.81982pt too wide) in paragraph at lines 124--124
-\T1/pplj/m/n/10 able for ge-netic map-ping? Con-sider both sam-ple com-po-si-ti
-on and types
+Overfull \hbox (16.85004pt too wide) in paragraph at lines 131--131
+\T1/pplj/b/n/10.95 is this re-lated to the con-cept of epis-ta-sis and how is i
+t dis-tinct (or
  []
 
 
-Overfull \hbox (20.18974pt too wide) in paragraph at lines 128--128
-|\T1/pplj/m/n/10 7. De-fine epis-ta-sis. De-scribe ap-proaches that al-low epis
--ta-sis to be de-tected
+Overfull \hbox (16.6748pt too wide) in paragraph at lines 135--135
+|\T1/pplj/b/n/10.95 6. What are dis-tinc-tions among the con-cepts link-age, li
+nk-age dis-
  []
 
 
-Overfull \hbox (22.66978pt too wide) in paragraph at lines 128--128
-\T1/pplj/m/n/10 or quan-ti-fied. De-scribe some bi-o-log-i-cal mech-a-nisms tha
-t can pro-duce epis-
+Overfull \hbox (9.20692pt too wide) in paragraph at lines 135--135
+\T1/pplj/b/n/10.95 e-qui-lib-rium, and as-so-ci-a-tion? Un-der what cir-cum-sta
+nces would
  []
 
 
-Overfull \hbox (6.57977pt too wide) in paragraph at lines 128--128
-\T1/pplj/m/n/10 ta-sis. Dis-cuss the im-pli-ca-tions of epis-ta-sis for ef-fort
-s to map the ge-netic
+Overfull \hbox (5.61528pt too wide) in paragraph at lines 135--135
+\T1/pplj/b/n/10.95 each be prefer-able for ge-netic map-ping? Con-sider both sa
+m-ple
  []
 
 
-Overfull \hbox (7.63974pt too wide) in paragraph at lines 128--128
-\T1/pplj/m/n/10 causes of phe-no-types. Dis-cuss the po-ten-tial im-pli-ca-tion
-s of epis-ta-sis for
+Overfull \hbox (3.9071pt too wide) in paragraph at lines 139--139
+|\T1/pplj/b/n/10.95 7. De-fine epis-ta-sis. De-scribe ap-proaches that al-low e
+pis-ta-sis to
  []
 
 
-Overfull \hbox (1.05978pt too wide) in paragraph at lines 132--132
-|\T1/pplj/m/n/10 8. De-fine her-i-tabil-ity. De-scribe meth-ods used to quan-ti
-fy the her-i-tabil-
+Overfull \hbox (12.6671pt too wide) in paragraph at lines 139--139
+\T1/pplj/b/n/10.95 be de-tected or quan-ti-fied. De-scribe some bi-o-log-i-cal 
+mech-a-nisms
  []
 
 
-Overfull \hbox (7.20981pt too wide) in paragraph at lines 132--132
-\T1/pplj/m/n/10 ity of a phe-no-type. Dis-cuss the value and lim-i-ta-tions of 
-her-i-tabil-ity as a
+Overfull \hbox (8.26529pt too wide) in paragraph at lines 139--139
+\T1/pplj/b/n/10.95 that can pro-duce epis-ta-sis. Dis-cuss the im-pli-ca-tions 
+of epis-ta-sis
  []
 
 
-Overfull \hbox (20.39973pt too wide) in paragraph at lines 132--132
-\T1/pplj/m/n/10 de-scrip-tor of the ex-tent to which a phe-no-type has ge-netic
- causes. De-scribe
+Overfull \hbox (9.64488pt too wide) in paragraph at lines 139--139
+\T1/pplj/b/n/10.95 for ef-forts to map the ge-netic causes of phe-no-types. Dis
+-cuss the
+ []
+
+
+Overfull \hbox (5.68094pt too wide) in paragraph at lines 139--139
+\T1/pplj/b/n/10.95 po-ten-tial im-pli-ca-tions of epis-ta-sis for the evo-lu-ti
+on-ary pro-cess.| 
+ []
+
+
+Overfull \hbox (18.52528pt too wide) in paragraph at lines 143--143
+|\T1/pplj/b/n/10.95 8. De-fine her-i-tabil-ity. De-scribe meth-ods used to quan
+-tify the her-
+ []
+
+
+Overfull \hbox (18.54721pt too wide) in paragraph at lines 143--143
+\T1/pplj/b/n/10.95 i-tabil-ity of a phe-no-type. Dis-cuss the value and lim-i-t
+a-tions of her-
+ []
+
+
+Overfull \hbox (3.05298pt too wide) in paragraph at lines 143--143
+\T1/pplj/b/n/10.95 i-tabil-ity as a de-scrip-tor of the ex-tent to which a phe-
+no-type has
+ []
+
+
+Overfull \hbox (8.91125pt too wide) in paragraph at lines 143--143
+\T1/pplj/b/n/10.95 ge-netic causes. De-scribe the "miss-ing her-i-tabil-ity pro
+b-lem" and
  []
 
 
@@ -859,33 +892,38 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+[3] [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
  (C:\Users\czyzc\Documents\GitHub\prelim\prelim.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
 Package rerunfilecheck Info: File `prelim.out' has not changed.
 (rerunfilecheck)             Checksum: 860F286B7E44D7E754F959EF12D5EC02;181.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
  ) 
 Here is how much of TeX's memory you used:
- 13247 strings out of 493921
- 186317 string characters out of 3144876
- 378598 words of memory out of 3000000
- 16319 multiletter control sequences out of 15000+200000
- 39573 words of font info for 53 fonts, out of 3000000 for 9000
+ 13254 strings out of 493921
+ 186391 string characters out of 3144876
+ 379601 words of memory out of 3000000
+ 16322 multiletter control sequences out of 15000+200000
+ 42498 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  40i,11n,45p,423b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/
-czyzc/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/c
-zyzc/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on prelim.pdf (3 pages, 74587 bytes).
+czyzc/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplbj8a.pfb><C:/Users/c
+zyzc/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/cz
+yzc/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on prelim.pdf (4 pages, 86138 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
  1033 words of extra memory for PDF output out of 10000 (max. 10000000)
 

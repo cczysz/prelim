@@ -40,8 +40,8 @@
 
 % Normal font formatting for subsections (i.e. questions)
 \titleformat{\subsection}
-{\normalfont}{\thesection}{1em}{}
-
+{\large\bfseries}{\thesection}{1em}{}
+%\normalfont
 \usepackage{makeidx}
 \makeindex
 
@@ -104,9 +104,20 @@ A good answer would show in escalating order:
 Explain the distinction between allelic heterogeneity, genetic (locus) heterogeneity, and clinical heterogeneity. Give examples of each.}  
 \label{subsec:01}
 
+This question asks to explain how similar or identical phenotypes can have different underlying causes.
+
+\noindent
+Allelic heterogeneity
+
+The phenotype can be caused by multiple risk alleles at the same genetic locus.
+
+Example: Cystic Fibrosis is caused by defective cystic fibrosis transmembrane conductance regulator proteins (CFTR). Many mutations in the CFTR gene can give rise to non-functioning proteins, which all lead to the same CF phenotype.
+
+Two-thirds of all CF mutations are a 3bp deletion at position 508, resulting in a loss of phenylalanine. 1,500 other mutations also exist which lead to CF. However, this disease is haplosufficient.
+
 \subsection{2.
 What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}
-\label{subsec:02}
+\label{subsec:02} 
 
 \subsection{3.
 What are the key distinguishing characteristics of pedigrees segregating autosomal dominant, autosomal recessive, X-linked, Y-linked, and mitochondrial diseases?}
