@@ -1,0 +1,14 @@
+\contentsline {section}{General Genetic Principles}{3}{section*.1}
+\contentsline {section}{Page Layout}{3}{section*.2}
+\contentsline {subsection}{Headings}{3}{subsection*.3}
+\contentsline {subsection}{Sidenotes}{3}{subsection*.4}
+\contentsline {subsection}{References}{4}{subsection*.5}
+\contentsline {section}{Figures and Tables}{4}{section*.6}
+\contentsline {section}{Full-width text blocks}{5}{section*.7}
+\contentsline {section}{Typography}{5}{section*.8}
+\contentsline {subsection}{Typefaces}{5}{subsection*.9}
+\contentsline {subsection}{Letterspacing}{5}{subsection*.10}
+\contentsline {section}{Installation}{6}{section*.11}
+\contentsline {section}{More Documentation}{6}{section*.12}
+\contentsline {section}{Support}{6}{section*.13}
+\contentsfinish 

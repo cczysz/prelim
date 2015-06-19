@@ -6,8 +6,17 @@
 
 \date{September 2015} % without \date command, current date is supplied
 
+\setcounter{tocdepth}{3}
+
 %\geometry{showframe} % display margins for debugging page layout
 
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true,    % Colours links instead of ugly boxes
+  urlcolor     = blue,    % Colour for external hyperlinks
+  linkcolor    = blue,    % Colour of internal links
+  citecolor    = red      % Colour of citations
+}
 \usepackage{graphicx} % allow embedded images
   \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
   \graphicspath{{graphics/}} % set of paths to search for images
@@ -29,6 +38,8 @@
 \newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
 \newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
 
+\usepackage{makeidx}
+\makeindex
 \begin{document}
 
 \maketitle% this prints the handout title, author, and date
@@ -37,7 +48,7 @@
 \noindent
 \textbf{Required}
 
-Questions 1-8: General Genetic Principles 
+Questions 1-8: \ref{sec:gen-genetic}{General Genetic Principles}
 
 Questions 9-12: Mapping
 
@@ -61,8 +72,15 @@ Questions 33-38: Gene Regulation and Human Phenotypes
 \end{abstract}
 
 \newpage
+
+\tableofcontents 
+
+\newpage
 %\printclassoptions
 
+\section{General Genetic Principles}\label{sec:gen-genetic}
+
+\ref{sec:gen-genetic}{Hi}
 The Tufte-\LaTeX\ document classes define a style similar to the
 style Edward Tufte uses in his books and handouts.  Tufte's style is known
 for its extensive use of sidenotes, tight integration of graphics with
