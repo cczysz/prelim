@@ -26,6 +26,7 @@
 \usepackage{multicol} % multiple column layout facilities
 \usepackage{lipsum}   % filler text
 \usepackage{fancyvrb} % extended verbatim environments
+\usepackage{amsthm}
   \fvset{fontsize=\normalsize}% default font size for fancy-verbatim environments
 
 % Standardize command font styles and environments
@@ -37,6 +38,8 @@
 \newcommand{\doccls}[1]{\texttt{#1}}% document class name
 \newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
 \newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+
+\newtheorem*{define}{Definition}
 
 % Normal font formatting for subsections (i.e. questions)
 \titleformat{\subsection}
@@ -53,7 +56,7 @@
 \noindent
 \textbf{Required}
 
-Questions 1-8: \ref{sec:gen-genetic}{General Genetic Principles}
+Questions 1-8: General Genetic Principles
 
 Questions 9-12: Mapping
 
@@ -104,14 +107,16 @@ A good answer would show in escalating order:
 Explain the distinction between allelic heterogeneity, genetic (locus) heterogeneity, and clinical heterogeneity. Give examples of each.}  
 \label{subsec:01}
 
-This question asks to explain how similar or identical phenotypes can have different underlying causes.
+%This question asks to explain how similar or identical phenotypes can have different underlying causes.
 
+%\define[Allelic heterogeneity]
+\begin{define}[Allelic Heterogeneity]
+In a given population, an observed phenotype is caused by multiple risk alleles at the same genetic locus.
+\end{define}
 \noindent
-Allelic heterogeneity
+\textbf{Example} 
 
-The phenotype can be caused by multiple risk alleles at the same genetic locus.
-
-Example: Cystic Fibrosis is caused by defective cystic fibrosis transmembrane conductance regulator proteins (CFTR). Many mutations in the CFTR gene can give rise to non-functioning proteins, which all lead to the same CF phenotype.
+Cystic Fibrosis is caused by defective cystic fibrosis transmembrane conductance regulator proteins (CFTR). Many mutations in the CFTR gene can give rise to non-functioning proteins, which all lead to the same CF phenotype.
 
 Two-thirds of all CF mutations are a 3bp deletion at position 508, resulting in a loss of phenylalanine. 1,500 other mutations also exist which lead to CF. However, this disease is haplosufficient.
 
