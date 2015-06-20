@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.19)  20 JUN 2015 12:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.19)  20 JUN 2015 12:19
 entering extended mode
 **prelim.tex
 (C:\Users\czyzc\Documents\GitHub\prelim\prelim.tex
@@ -838,7 +838,11 @@ File: ./figs/kincoeff.png Graphic file (type png)
 
 <use ./figs/kincoeff.png>
 Package pdftex.def Info: ./figs/kincoeff.png used on input line 170.
-(pdftex.def)             Requested size: 283.05249pt x 186.69418pt.
+(pdftex.def)             Requested size: 353.82101pt x 233.37129pt.
+
+Overfull \hbox (41.82101pt too wide) in paragraph at lines 170--171
+[][] 
+ []
 
 <./figs/kinrelate.png, id=79, 685.56125pt x 233.87375pt>
 File: ./figs/kinrelate.png Graphic file (type png)
@@ -857,8 +861,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--183
  []
 
 [4 <C:/Users/czyzc/Documents/GitHub/prelim/figs/ibd.png> <C:/Users/czyzc/Docume
-nts/GitHub/prelim/figs/kincoeff.png> <C:/Users/czyzc/Documents/GitHub/prelim/fi
-gs/kinrelate.png>]
+nts/GitHub/prelim/figs/kincoeff.png>]
 Overfull \hbox (1.77182pt too wide) in paragraph at lines 188--188
 |\T1/pplj/b/n/10.95 3. What are the key dis-tin-guish-ing char-ac-ter-is-tics o
 f pedi-grees
@@ -978,9 +981,10 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                You may not be able to run BibTeX.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
-[5]
+[5 <C:/Users/czyzc/Documents/GitHub/prelim/figs/kinrelate.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
- (C:\Users\czyzc\Documents\GitHub\prelim\prelim.aux)
+
+(C:\Users\czyzc\Documents\GitHub\prelim\prelim.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 Package rerunfilecheck Info: File `prelim.out' has not changed.
@@ -988,25 +992,26 @@ Package rerunfilecheck Info: File `prelim.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 13473 strings out of 493921
- 189678 string characters out of 3144876
+ 13474 strings out of 493921
+ 189684 string characters out of 3144876
  379947 words of memory out of 3000000
  16489 multiletter control sequences out of 15000+200000
- 69102 words of font info for 106 fonts, out of 3000000 for 9000
+ 69359 words of font info for 107 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  40i,11n,45p,423b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/czy
-zc/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplbj8a.pfb><C:/Users/czyz
-c/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/czyzc
-/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Users/czyzc
-/AppData/Roaming/MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/urw/palatino/uplri8a.pfb>
-Output written on prelim.pdf (5 pages, 170303 bytes).
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/czyzc
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplbj8a.pfb><C:/Users/czyzc/
+AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/czyzc/A
+ppData/Roaming/MiKTeX/2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Users/czyzc/A
+ppData/Roaming/MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/urw/palatino/uplri8a.pfb>
+Output written on prelim.pdf (5 pages, 178886 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
  1056 words of extra memory for PDF output out of 10000 (max. 10000000)
 
