@@ -13,7 +13,7 @@
 \usepackage{hyperref}
 \hypersetup{
   colorlinks   = true,    % Colours links instead of ugly boxes
-  urlcolor     = black,    % Colour for external hyperlinks
+  urlcolor     = blue,    % Colour for external hyperlinks
   linkcolor    = black,    % Colour of internal links
   citecolor    = red      % Colour of citations
 }
@@ -107,18 +107,42 @@ A good answer would show in escalating order:
 Explain the distinction between allelic heterogeneity, genetic (locus) heterogeneity, and clinical heterogeneity. Give examples of each.}  
 \label{subsec:01}
 
+\begin{abstract}
+Great review of this topic:
+
+\href{http://www.sciencedirect.com/science/article/pii/S009286741000320X}{Genetic Heterogeneity in Human Diseases}
+\end{abstract}
 %This question asks to explain how similar or identical phenotypes can have different underlying causes.
+
+\noindent
+\textbf{Overview}
+
+\noindent
+Each of the following topics have implications in the type of studies which can or cannot be used. Overall, heterogeneity ensures that large-scale association tests or case-control studies will be poorly powered to detect causal variants or genes. See the review linked above for more detail.
 
 %\define[Allelic heterogeneity]
 \begin{define}[Allelic Heterogeneity]
-In a given population, an observed phenotype is caused by multiple risk alleles at the same genetic locus.
+In a given population, different mutations in the same gene result in a similar phenotype.
 \end{define}
 \noindent
 \textbf{Example} 
 
 Cystic Fibrosis is caused by defective cystic fibrosis transmembrane conductance regulator proteins (CFTR). Many mutations in the CFTR gene can give rise to non-functioning proteins, which all lead to the same CF phenotype.
 
-Two-thirds of all CF mutations are a 3bp deletion at position 508, resulting in a loss of phenylalanine. 1,500 other mutations also exist which lead to CF. However, this disease is haplosufficient.
+Two-thirds of all CF mutations are a 3bp deletion at position 508, resulting in a loss of phenylalanine. 1,500 other mutations also exist which lead to CF. However, this disease is haplosufficient..
+
+Unknown alleleic heterogeneity can affect GWA results\footnote{\url{http://hmg.oxfordjournals.org/content/11/20/2417.short}} when LD methods are used.
+
+\textbf{Sources}
+
+\url{http://hmg.oxfordjournals.org/content/20/20/4082.short}
+
+\begin{define}[Genetic (locus) heterogeneity]
+Mutations in different genes result in a similar phenotype.
+\end{define}
+
+The BRCA1 and BRCA2 genes are a good example of how mutations in different genes lead to the same phenotype. 
+
 
 \subsection{2.
 What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}
