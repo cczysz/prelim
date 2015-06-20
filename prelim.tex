@@ -18,8 +18,8 @@
   citecolor    = red      % Colour of citations
 }
 \usepackage{graphicx} % allow embedded images
-  \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
-  \graphicspath{{graphics/}} % set of paths to search for images
+  %\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+  \graphicspath{{./figs}} % set of paths to search for images
 \usepackage{amsmath}  % extended mathematics
 \usepackage{booktabs} % book-quality tables
 \usepackage{units}    % non-stacked fractions and better unit spacing
@@ -105,7 +105,7 @@ A good answer would show in escalating order:
 
 \subsection{1.
 Explain the distinction between allelic heterogeneity, genetic (locus) heterogeneity, and clinical heterogeneity. Give examples of each.}  
-\label{subsec:01}
+%\label{subsec:01}
 
 \begin{abstract}
 Great review of this topic:
@@ -143,10 +143,22 @@ Mutations in different genes result in a similar phenotype.
 
 The BRCA1 and BRCA2 genes are a good example of how mutations in different genes lead to the same phenotype. 
 
+\begin{define}[Clinical Heterogeneity]
+Variability in clinical manifestations, or phenotypes, with the same underlying mutation/genetic disorder.
+\end{define}
 
 \subsection{2.
 What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}
 \label{subsec:02} 
+
+\begin{define}[Identity by descent]
+Two alleles at the same locus that are descended from the same ancestral allele within the recent past.
+\end{define}
+
+\begin{marginfigure}%
+  \includegraphics[scale=0.65]{./figs/ibd}
+  \label{fig:marginfig}
+\end{marginfigure}
 
 \subsection{3.
 What are the key distinguishing characteristics of pedigrees segregating autosomal dominant, autosomal recessive, X-linked, Y-linked, and mitochondrial diseases?}
@@ -172,5 +184,5 @@ Define epistasis. Describe approaches that allow epistasis to be detected or qua
 Define heritability. Describe methods used to quantify the heritability of a phenotype. Discuss the value and limitations of heritability as a descriptor of the extent to which a phenotype has genetic causes. Describe the "missing heritability problem" and its potential explanations.}
 \label{subsec:08}
 
-
+\section{Mapping}\label{sec:map}
 \end{document}
