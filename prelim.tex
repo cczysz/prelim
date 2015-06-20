@@ -147,6 +147,7 @@ The BRCA1 and BRCA2 genes are a good example of how mutations in different genes
 Variability in clinical manifestations, or phenotypes, with the same underlying mutation/genetic disorder.
 \end{define}
 
+\newpage
 \subsection{2.
 What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}
 \label{subsec:02} 
@@ -157,9 +158,28 @@ Two alleles at the same locus that are descended from the same ancestral allele 
 
 \begin{marginfigure}%
   \includegraphics[scale=0.65]{./figs/ibd}
+  \caption{IBD Pedigree Example}
   \label{fig:marginfig}
 \end{marginfigure}
 
+\begin{define}[Coefficient of Kinship]
+$f_{xy}$: The probability that two alleles, one from X and the other from Y, are IBD.
+\end{define}
+
+\begin{figure}
+\includegraphics[scale=0.4]{./figs/kincoeff}
+\end{figure}
+
+\begin{define}[Coefficient of Relatedness]
+$R_n$, the probability of sharing $n$ IBD alleles. Mean relatedness, $\bar{r} = r_1 + 2r_2$.
+\end{define}
+
+\begin{figure}
+\includegraphics[scale=0.5]{./figs/kinrelate}
+\end{figure}
+
+
+\newpage
 \subsection{3.
 What are the key distinguishing characteristics of pedigrees segregating autosomal dominant, autosomal recessive, X-linked, Y-linked, and mitochondrial diseases?}
 \label{subsec:03}
