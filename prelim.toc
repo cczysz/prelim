@@ -3,14 +3,14 @@
 \contentsline {subsection}{2. What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}{4}{subsection*.3}
 \contentsline {subsection}{3. What are the key distinguishing characteristics of pedigrees segregating autosomal dominant, autosomal recessive, X-linked, Y-linked, and mitochondrial diseases?}{5}{subsection*.4}
 \contentsline {subsection}{4. Explain the "non-Mendelian" concepts of uniparental disomy and imprinting. How would these be manifested in pedigrees and how are they demonstrated at the cellular or molecular levels?}{6}{subsection*.5}
-\contentsline {subsection}{5. What evidence is there for the presence of modifier loci? How is this related to the concept of epistasis and how is it distinct (or not) from polygenic and other models of inheritance?}{6}{subsection*.6}
-\contentsline {subsection}{6. What are distinctions among the concepts linkage, linkage disequilibrium, and association? Under what circumstances would each be preferable for genetic mapping? Consider both sample composition and types of diseases.}{6}{subsection*.7}
-\contentsline {subsection}{7. Define epistasis. Describe approaches that allow epistasis to be detected or quantified. Describe some biological mechanisms that can produce epistasis. Discuss the implications of epistasis for efforts to map the genetic causes of phenotypes. Discuss the potential implications of epistasis for the evolutionary process.}{6}{subsection*.8}
-\contentsline {subsection}{8. Define heritability. Describe methods used to quantify the heritability of a phenotype. Discuss the value and limitations of heritability as a descriptor of the extent to which a phenotype has genetic causes. Describe the "missing heritability problem" and its potential explanations.}{6}{subsection*.9}
-\contentsline {section}{Mapping}{6}{section*.10}
-\contentsline {section}{Genetic Architecture of Human Phenotypes}{6}{section*.11}
-\contentsline {section}{Population and Evolutionary Genetics}{6}{section*.12}
-\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{6}{section*.13}
-\contentsline {section}{Gene Regulation and Human Phenotypes}{6}{section*.14}
-\contentsline {section}{Study Design and Statistical Data Analysis}{6}{section*.15}
+\contentsline {subsection}{5. What evidence is there for the presence of modifier loci? How is this related to the concept of epistasis and how is it distinct (or not) from polygenic and other models of inheritance?}{7}{subsection*.6}
+\contentsline {subsection}{6. What are distinctions among the concepts linkage, linkage disequilibrium, and association? Under what circumstances would each be preferable for genetic mapping? Consider both sample composition and types of diseases.}{8}{subsection*.7}
+\contentsline {subsection}{7. Define epistasis. Describe approaches that allow epistasis to be detected or quantified. Describe some biological mechanisms that can produce epistasis. Discuss the implications of epistasis for efforts to map the genetic causes of phenotypes. Discuss the potential implications of epistasis for the evolutionary process.}{9}{subsection*.8}
+\contentsline {subsection}{8. Define heritability. Describe methods used to quantify the heritability of a phenotype. Discuss the value and limitations of heritability as a descriptor of the extent to which a phenotype has genetic causes. Describe the "missing heritability problem" and its potential explanations.}{10}{subsection*.9}
+\contentsline {section}{Mapping}{10}{section*.10}
+\contentsline {section}{Genetic Architecture of Human Phenotypes}{10}{section*.11}
+\contentsline {section}{Population and Evolutionary Genetics}{10}{section*.12}
+\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{10}{section*.13}
+\contentsline {section}{Gene Regulation and Human Phenotypes}{10}{section*.14}
+\contentsline {section}{Study Design and Statistical Data Analysis}{10}{section*.15}
 \contentsfinish 
