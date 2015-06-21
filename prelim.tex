@@ -8,7 +8,7 @@
 
 \setcounter{tocdepth}{3}
 
-%\geometry{showframe} % display margins for debugging page layout
+\geometry{bottom=0.5in}%showframe % display margins for debugging page layout
 
 \usepackage{hyperref}
 \hypersetup{
@@ -21,6 +21,7 @@
   %\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
   \graphicspath{{./figs}} % set of paths to search for images
 \usepackage{amsmath}  % extended mathematics
+%\usepackage{float}
 \usepackage{booktabs} % book-quality tables
 \usepackage{units}    % non-stacked fractions and better unit spacing
 \usepackage{multicol} % multiple column layout facilities
@@ -39,7 +40,16 @@
 \newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
 \newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
 
+\newtheoremstyle{noparens}%
+{}{}%
+{\itshape}{}%
+{\bfseries}{ - }%
+{ }%
+{\thmname{#1}\thmnumber{ #2}\thmnote{ #3}}
+
+\theoremstyle{noparens}
 \newtheorem*{define}{Definition}
+\newtheorem*{example}{Example}
 
 % Normal font formatting for subsections (i.e. questions)
 \titleformat{\subsection}
@@ -143,20 +153,23 @@ Unknown alleleic heterogeneity can affect GWA results\footnote{\url{http://hmg.o
 Mutations in different genes result in a similar phenotype.
 \end{define}
 
+\begin{example}
 The BRCA1 and BRCA2 genes are a good example of how mutations in different genes lead to the same phenotype. 
+\end{example}
 
 \begin{define}[Clinical Heterogeneity]
 Variability in clinical manifestations, or phenotypes, with the same underlying mutation/genetic disorder.
 \end{define}
 
-\newpage
 Mutations in several genes can lead to familial hypercholesterolemia, high level of LDL cholesterol. Mutations in LDLR (LDL receptor), Apolipoprotein B, proprotein convertase subtilisin/kexin type 9 (PCSK9), and the ARH/LDLRAP1 genes can all lead to familial hypercholesterolemia.
+
+\newpage
 \subsection{2.
 What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}
 \label{subsec:02} 
 
 \begin{define}[Identity by descent]
-Two alleles at the same locus that are descended from the same ancestral allele within the recent past.
+Two alleles at the same locus that are descended from the same ancestral allele within the recent past. Can be 0, 1, or 2 depending on how many ancestral alleles shared between individuals.
 \end{define}
 
 \begin{marginfigure}%
@@ -174,13 +187,13 @@ $f_{xy}$: The probability that two alleles, one from X and the other from Y, are
 \end{figure}
 
 \begin{define}[Coefficient of Relatedness]
-$R_n$, the probability of sharing $n \in \{0,1,2\}$ IBD alleles. Mean relatedness, $\bar{r} = r_1 + 2r_2$.
+$R_n$, the probability of sharing $n \in \{0,1,2\}$ IBD alleles. Mean relatedness, $\bar{r} = 0 \times r_0 + 1 \times r_1 + 2 \times r_2$.
 \end{define}
 
 \noindent
 \textbf{Relationship between Coefficients}
 \[f_{xy} = \frac{1}{2}\bar{r}\]
-\begin{figure}
+\begin{figure}[h!]
 \includegraphics[scale=0.5]{./figs/kinrelate}
 \caption{Relationship between Kinship and Relatedness coefficients}
 \end{figure}
@@ -191,6 +204,26 @@ $R_n$, the probability of sharing $n \in \{0,1,2\}$ IBD alleles. Mean relatednes
 What are the key distinguishing characteristics of pedigrees segregating autosomal dominant, autosomal recessive, X-linked, Y-linked, and mitochondrial diseases?}
 \label{subsec:03}
 
+ \noindent
+ \textbf{Autosomal Dominant}
+ 
+ On average, half of offspring will be affected.
+ 
+ \noindent
+ \textbf{Autosomal Recessive}
+ 
+ If both parents are carriers, then $\frac{1}{4}$th of offspring will show a disease phenotype.
+ 
+ \noindent
+ \textbf{X-linked Dominant}
+ 
+Affected men always pass disease to daughters. Affected women have $\frac{3}{4}$ths chance of passing disease to daughters and same chance to sons.
+ 
+ \noindent
+ \textbf{X-linked Recessive}
+ 
+Women can be either affected or carriers. Men always affected.
+  
 \subsection{4.
 Explain the "non-Mendelian" concepts of uniparental disomy and imprinting. How would these be manifested in pedigrees and how are they demonstrated at the cellular or molecular levels?}
 \label{subsec:04}
