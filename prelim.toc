@@ -7,10 +7,12 @@
 \contentsline {subsection}{6. What are distinctions among the concepts linkage, linkage disequilibrium, and association? Under what circumstances would each be preferable for genetic mapping? Consider both sample composition and types of diseases.}{8}{subsection*.7}
 \contentsline {subsection}{7. Define epistasis. Describe approaches that allow epistasis to be detected or quantified. Describe some biological mechanisms that can produce epistasis. Discuss the implications of epistasis for efforts to map the genetic causes of phenotypes. Discuss the potential implications of epistasis for the evolutionary process.}{9}{subsection*.8}
 \contentsline {subsection}{8. Define heritability. Describe methods used to quantify the heritability of a phenotype. Discuss the value and limitations of heritability as a descriptor of the extent to which a phenotype has genetic causes. Describe the "missing heritability problem" and its potential explanations.}{10}{subsection*.9}
-\contentsline {section}{Mapping}{10}{section*.10}
-\contentsline {section}{Genetic Architecture of Human Phenotypes}{10}{section*.11}
-\contentsline {section}{Population and Evolutionary Genetics}{10}{section*.12}
-\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{10}{section*.13}
-\contentsline {section}{Gene Regulation and Human Phenotypes}{10}{section*.14}
-\contentsline {section}{Study Design and Statistical Data Analysis}{10}{section*.15}
+\contentsline {section}{Mapping}{11}{section*.10}
+\contentsline {subsection}{9. What is the difference between an odds ratio and relative risk? When would you use each and how might these relate to the concept of heritability in a genetic study? }{11}{subsection*.11}
+\contentsline {subsection}{10. What are the differences between quantitative and qualitative trait mapping, correlated phenotypes, multi-trait mapping?}{12}{subsection*.12}
+\contentsline {section}{Genetic Architecture of Human Phenotypes}{12}{section*.13}
+\contentsline {section}{Population and Evolutionary Genetics}{12}{section*.14}
+\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{12}{section*.15}
+\contentsline {section}{Gene Regulation and Human Phenotypes}{12}{section*.16}
+\contentsline {section}{Study Design and Statistical Data Analysis}{12}{section*.17}
 \contentsfinish 
