@@ -362,8 +362,18 @@ For the previous table, we can define the odds ratios for each group, giving $\t
 A ratio of odds. For a 2x2 contingency table, $OR = \theta = \frac{\text{odds}_1}{\text{odds}_2}$.
 \end{define}
 
-Odds ratios of 1 describe the null hypothesis that the group and response are independent. When $\theta > 1$, the odds of success for group 1 are $\theta$ times higher than for group 2.
+Odds ratios of 1 describe the null hypothesis that the group and response are independent. When $\theta > 1$, the odds of success for group 1 are $\theta$ times higher than for group 2. When $\theta < 1$, the odds of success for group 2 are $\frac{1}{\theta}$ times higher than for group 1.
 
+\begin{define}[Log Odds]
+As a fraction of positive values, the odds ratio is only lower-bounded by 0. Thus, the distribution is very skewed. Taking the log odds removes this skewedness since it is symmetric around its null value of 0.
+\end{define}
+
+\textbf{Relative Risk versus Odds Ratio}
+
+Recall that \[ \text{RR} = \frac{\pi_1}{\pi_2} \] and \[ \text{OR} = \frac{\pi_1 / (1-\pi_1)}{\pi_2 / (1-\pi_2)} \]
+
+Thus, \[ OR = RR \times \frac{1-\pi_2}{1-\pi_1} \] and when the probabilities of success are both small, the RR and the OR are very similar.
+ 
 \newpage
 \subsection{10.
 What are the differences between quantitative and qualitative trait mapping, correlated phenotypes, multi-trait mapping?}
