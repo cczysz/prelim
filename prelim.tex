@@ -315,6 +315,55 @@ Define heritability. Describe methods used to quantify the heritability of a phe
 What is the difference between an odds ratio and relative risk? When would you use each and how might these relate to the concept of heritability in a genetic study?
 }
 
+\begin{define}[Relative Risk]
+$\lambda_R$ is the risk that an affected person acquires a trait divided by the risk for the general population.
+\end{define}
+
+Consider a 2x2 contingency table testing a response (yes or no) based on group (placebo versus medicine). $\pi_1$ is defined as the probability of a "yes" response for the placebo group. $\pi_2$ is the probability of a "yes" response for the medicine group.
+
+\begin{table}
+\centering
+\begin{tabular}{llll}
+\toprule
+Group & Diseased & Not Diseased & Total\\
+\midrule
+Placebo & $\pi_1$ & $1-\pi_1$ & 1\\
+Medicine & $\pi_2$ & $1-\pi_2$ & 1\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The relative risk for this table is given by \[ \text{relative risk} = \frac{\pi_1}{\pi_2} \]
+
+Example Data:
+
+\begin{table}
+\centering
+\begin{tabular}{llll}
+\toprule
+Group & Diseased & Not Diseased & Total\\
+\midrule
+Placebo & 189 & 10,845 & 11,034\\
+Medicine & 104 & 10,933 & 11,037\\
+\bottomrule
+\end{tabular}
+\caption{Adapted from Table 2.3 from \emph{Introduction to Categorical Data Analysis} by Alan Agresti}
+\end{table}
+
+In this example, $\hat{\pi_1} = \frac{189}{11,034}$ and $\hat{\pi_2} = \frac{104}{11,037}$. A small difference, but a relative risk of 1.83, meaning the placebo group is 83\% more at risk than the medicine group.
+
+\begin{define}[Odds]
+Expected ratio of successes. Define $p$ as probability of success, $\text{odds}_1 = \frac{p}{1-p}$. Thus, an odds of 3 indicates a probability of success of 0.75 and of failure 0.25.
+\end{define}
+
+For the previous table, we can define the odds ratios for each group, giving $\text{odds}_1 = \frac{\pi_1}{1-\pi_1}$ and $\text{odds}_2 = \frac{\pi_2}{1-\pi_2}$, respectively. 
+
+\begin{define}[Odds Ratio]
+A ratio of odds. For a 2x2 contingency table, $OR = \theta = \frac{\text{odds}_1}{\text{odds}_2}$.
+\end{define}
+
+Odds ratios of 1 describe the null hypothesis that the group and response are independent. When $\theta > 1$, the odds of success for group 1 are $\theta$ times higher than for group 2.
+
 \newpage
 \subsection{10.
 What are the differences between quantitative and qualitative trait mapping, correlated phenotypes, multi-trait mapping?}
