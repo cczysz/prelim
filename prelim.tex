@@ -308,6 +308,34 @@ Define epistasis. Describe approaches that allow epistasis to be detected or qua
 Define heritability. Describe methods used to quantify the heritability of a phenotype. Discuss the value and limitations of heritability as a descriptor of the extent to which a phenotype has genetic causes. Describe the "missing heritability problem" and its potential explanations.}
 \label{subsec:08}
 
+A measurable phenotypic trait varies within a population. Beak length in finches is a good example: there exists a mean length, but the values can be higher or lower. This variance is denoted by $\sigma_P^2$.
+
+For most traits, the phenotype is made up of contributions from genes and environment, and similarly for the variance.
+
+\[ \sigma_P^2 = \sigma_G^2 + \sigma_E^2 \]
+
+The relationship between genetic variability and phenotypic variability is deemed heritability. 
+
+\[ h^2 = \frac{\sigma_a^2}{\sigma_P^2} \]
+
+Where $\sigma_a^2$ is the additive genetic variance (as opposed to dominance effects).
+
+An estimate of $h^2$ can be found by plotting the phenotypic value of offspring versus the midparent value and fitting a linear regression. The slope of this regression estimates $h^2$, how well the parent phenotype determines the offspring phenotype.
+
+\textbf{Twin Method}
+
+Twin studies allow the inflation of heritability by common environment to be minimized. Since twins are presumed to have experienced the same environment growing up, the environmental variance is the same. Comparing monozygotic twins to dizygotic twins will allow a better estimation of heritability. 
+
+\textbf{Considerations}
+
+Calculations of heritability can be influenced by shared environment. Thus, heritability is usually specific to a single population or region.
+
+\textbf{GCTA}
+
+\textbf{Missing heritability}
+
+A heritability of 1 indicates that a genetic variant or variants can explain all of the phenotypic variance. As association studies and GWA studies have increased sample size and tagged variants, the heritability measures of measured traits has not increased as quickly.
+
 \newpage
 \section{Mapping}\label{sec:map}
 
