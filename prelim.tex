@@ -207,23 +207,33 @@ What are the key distinguishing characteristics of pedigrees segregating autosom
  \noindent
  \textbf{Autosomal Dominant}
  
- On average, half of offspring of affected-nonaffected parents will be affected.
+ Both sexes are equally affected. Offspring have a 50\% chance of inheriting the disease from an affected parent.
  
  \noindent
  \textbf{Autosomal Recessive}
  
- If both parents are carriers, then $\frac{1}{4}$th of offspring will show a disease phenotype.
+ If both parents are carriers, then $\frac{1}{4}$th of offspring will show a disease phenotype. May appear to skip generations residing in a heterozygous carrier state instead of homozygous affected.
  
  \noindent
  \textbf{X-linked Dominant}
  
-Affected men always pass disease to daughters. Affected women have $\frac{3}{4}$ths chance of passing disease to daughters and same chance to sons.
+Affected men always pass disease to daughters. Affected women have $\frac{1}{2}$ths chance of passing disease to offspring.
  
  \noindent
  \textbf{X-linked Recessive}
  
-Women can be either affected or carriers. Men always affected.
-  
+Women can be either affected or carriers. Men always affected. Colorblindness as an example.
+ 
+\noindent
+\textbf{Y-linked}
+
+Affected fathers always pass to sons, never to daughters.
+
+\noindent
+\textbf{Mitochondrial}
+
+Passed on only by mothers to all offspring.
+ 
 \newpage
 \subsection{4.
 Explain the "non-Mendelian" concepts of uniparental disomy and imprinting. How would these be manifested in pedigrees and how are they demonstrated at the cellular or molecular levels?}
@@ -284,25 +294,59 @@ With imprinting, only one allele is expressed, and which allele depends on its p
 What evidence is there for the presence of modifier loci? How is this related to the concept of epistasis and how is it distinct (or not) from polygenic and other models of inheritance?}
 \label{subsec:05}
 
+\begin{define}[Modifier loci]
+A loci or gene which alters the expression of another gene, usually through epistatic interactions.
+\end{define}
+
+In epistatic interactions, modifier loci do not lead to binary traits (present or absent, etc), but result in a gradient of phenotypes (coat color in dogs and horses).
+
+\noindent
+\textbf{Evidence}
+
+Clinical variability in disease manifestation despite identical genotypes at the risk loci. Many exist in mice, but fewer found in humans due to difficulty to study.
+
+Variation in phenotype without variation in genotype 
 \newpage
 \subsection{6.
 What are distinctions among the concepts linkage, linkage disequilibrium, and association? Under what circumstances would each be preferable for genetic mapping? Consider both sample composition and types of diseases.}
 \label{subsec:06}
 
 \begin{define}[Linkage]
-Two loci tend to be inherited together due to lack of recombination.
+Two loci tend to be inherited together due to low probability of recombination.
 \end{define}
 
+Using data from many recombinations, linkage maps were created to map loci relative to the proportion of recombinations between them. In units of map units \textbf{m.u.} or centiMorgans. 1 mu is defined as the distance between genes with 1/100 meiosis products as recombinant. 
+
 \noindent
-\textbf{Linkage Mapping}
+\textbf{Parametric Linkage Mapping}
 
-Useful when samples are from large and informative pedigrees. Informative indicates that each allele can be assigned to 	
+Useful when samples are from large and informative pedigrees. Informative indicates that each allele can be assigned to 	a specific parent.
 
+Calculate LOD scores by finding the MLE of $\theta$
+
+\[ \text{LOD} = \log \frac{(1-\theta)^{NR}\theta^R}{0.5^{NR+R}} \]
+
+\noindent
+\textbf{Nonparametric Linkage Mapping}
+
+Used when the underlying model is unknown. Use affected relatives in order to leverage degree of allele-sharing.
 \newpage
 \subsection{7.
 Define epistasis. Describe approaches that allow epistasis to be detected or quantified. Describe some biological mechanisms that can produce epistasis. Discuss the implications of epistasis for efforts to map the genetic causes of phenotypes. Discuss the potential implications of epistasis for the evolutionary process.}
 \label{subsec:07}
 
+Multiple types of epistasis observed:
+
+\begin{itemize}
+\item \textbf{Functional} - Genes in the same pathway
+\item \textbf{Compositional} - 
+\item \textbf{Statistical}
+\end{itemize}
+
+\noindent
+\textbf{Effect of epistasis on mapping}
+
+An epistatic interaction might prevent identifying an association with one loci and a phenotype depending on 
 \newpage
 \subsection{8.
 Define heritability. Describe methods used to quantify the heritability of a phenotype. Discuss the value and limitations of heritability as a descriptor of the extent to which a phenotype has genetic causes. Describe the "missing heritability problem" and its potential explanations.}
@@ -410,6 +454,26 @@ Thus, \[ OR = RR \times \frac{1-\pi_2}{1-\pi_1} \] and when the probabilities of
 \subsection{10.
 What are the differences between quantitative and qualitative trait mapping, correlated phenotypes, multi-trait mapping?}
 
+\textbf{Qualitative versus Quantitative Traits}
+
+Qualitative traits are those of categorical, rather than numeric, values. Coat color in rats is one example (black, white, or brown). Quantitative traits, on the other hand, are phenotypes which can be measured (tail length, in centimeters). Qualitative trait mapping is useful for Mendelian inheritance while quantitative trait mapping is better for traits with multiple underlying causative loci.
+
+\textbf{Trait Mapping}
+
+Trait mapping allows the interrogation of the genetic region associated with a phenotypic trait. 
+
+Qualitative trait mapping requires
+
+\begin{itemize}
+\item Separate phenotypic categories
+\item Many genetic markers
+\item Inbred line for crosses
+\end{itemize}
+
+Quantitative trait mapping requires
+
+
+\newpage
 \section{Genetic Architecture of Human Phenotypes}\label{sec:genarch}
 
 \section{Population and Evolutionary Genetics}\label{sec:popgen}
