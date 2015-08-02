@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \contentsline {section}{General Genetic Principles}{4}{section*.1}
 \contentsline {subsection}{1. Explain the distinction between allelic heterogeneity, genetic (locus) heterogeneity, and clinical heterogeneity. Give examples of each.}{4}{subsection*.2}
 \contentsline {subsection}{2. What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}{5}{subsection*.3}
@@ -13,34 +12,14 @@
 \contentsline {subsection}{10. What are the differences between quantitative and qualitative trait mapping, correlated phenotypes, multi-trait mapping?}{15}{subsection*.12}
 \contentsline {subsection}{11) Describe the impact of using subjects with varied degrees of relatedness in an association study. How can this be addressed?}{15}{subsection*.13}
 \contentsline {subsection}{12) What are the strategies used to identify causal variants within an LD block associated with a trait? How do you assign a target gene as connected to a noncoding variant associated with a trait? How do you prioritize variants as likely causal/ how do you experimentally test them?}{15}{subsection*.14}
-\contentsline {section}{Genetic Architecture of Human Phenotypes}{16}{section*.15}
-\contentsline {subsection}{13) What is "genetic architecture" in the context of diseases and traits? What methods do we have for understanding genetic architecture and how would you characterize the relative power and resolution among these tools? What practical reasons are there for having a good understanding of it? What if any value is there in knowing general features of architecture in the absence of complete and detailed knowledge?}{16}{subsection*.16}
-\contentsline {subsection}{14) What are the expected relationships between allele frequency spectrum, penetrance, and prevalence of genetic disease?}{16}{subsection*.17}
-\contentsline {subsection}{15) What are the assumptions of the polygenic model of quantitative traits and of binary (disease) traits? What are alternative models?}{17}{subsection*.18}
-\contentsline {section}{Population and Evolutionary Genetics}{18}{section*.19}
-\contentsline {subsection}{27. Genome structure: Describe major features of the structure of mammalian genomes (e.g. genome size, nucleotide composition, gene families, repetitive elements, small noncoding RNAs, centromeres and telomeres) and hypothesized mechanisms affecting their evolution.}{18}{subsection*.20}
-\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{19}{section*.21}
-\contentsline {section}{Gene Regulation and Human Phenotypes}{19}{section*.22}
-\contentsline {section}{Study Design and Statistical Data Analysis}{19}{section*.23}
-=======
-\contentsline {section}{General Genetic Principles}{3}{section*.1}
-\contentsline {subsection}{1. Explain the distinction between allelic heterogeneity, genetic (locus) heterogeneity, and clinical heterogeneity. Give examples of each.}{3}{subsection*.2}
-\contentsline {subsection}{2. What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}{4}{subsection*.3}
-\contentsline {subsection}{3. What are the key distinguishing characteristics of pedigrees segregating autosomal dominant, autosomal recessive, X-linked, Y-linked, and mitochondrial diseases?}{5}{subsection*.4}
-\contentsline {subsection}{4. Explain the "non-Mendelian" concepts of uniparental disomy and imprinting. How would these be manifested in pedigrees and how are they demonstrated at the cellular or molecular levels?}{6}{subsection*.5}
-\contentsline {subsection}{5. What evidence is there for the presence of modifier loci? How is this related to the concept of epistasis and how is it distinct (or not) from polygenic and other models of inheritance?}{8}{subsection*.6}
-\contentsline {subsection}{6. What are distinctions among the concepts linkage, linkage disequilibrium, and association? Under what circumstances would each be preferable for genetic mapping? Consider both sample composition and types of diseases.}{9}{subsection*.7}
-\contentsline {subsection}{7. Define epistasis. Describe approaches that allow epistasis to be detected or quantified. Describe some biological mechanisms that can produce epistasis. Discuss the implications of epistasis for efforts to map the genetic causes of phenotypes. Discuss the potential implications of epistasis for the evolutionary process.}{10}{subsection*.8}
-\contentsline {subsection}{8. Define heritability. Describe methods used to quantify the heritability of a phenotype. Discuss the value and limitations of heritability as a descriptor of the extent to which a phenotype has genetic causes. Describe the "missing heritability problem" and its potential explanations.}{11}{subsection*.9}
-\contentsline {section}{Mapping}{12}{section*.10}
-\contentsline {subsection}{9. What is the difference between an odds ratio and relative risk? When would you use each and how might these relate to the concept of heritability in a genetic study? }{12}{subsection*.11}
-\contentsline {subsection}{10. What are the differences between quantitative and qualitative trait mapping, correlated phenotypes, multi-trait mapping?}{14}{subsection*.12}
-\contentsline {subsection}{12. Describe the impact of using subjects with varied degrees of relatedness.}{15}{subsection*.13}
-\contentsline {section}{Genetic Architecture of Human Phenotypes}{16}{section*.14}
-\contentsline {section}{Population and Evolutionary Genetics}{16}{section*.15}
-\contentsline {subsection}{27. Genome structure: Describe major features of the structure of mammalian genomes (e.g. genome size, nucleotide composition, gene families, repetitive elements, small noncoding RNAs, centromeres and telomeres) and hypothesized mechanisms affecting their evolution.}{16}{subsection*.16}
-\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{17}{section*.17}
-\contentsline {section}{Gene Regulation and Human Phenotypes}{17}{section*.18}
-\contentsline {section}{Study Design and Statistical Data Analysis}{17}{section*.19}
->>>>>>> origin/master
+\contentsline {subsection}{12. Describe the impact of using subjects with varied degrees of relatedness.}{16}{subsection*.15}
+\contentsline {section}{Genetic Architecture of Human Phenotypes}{17}{section*.16}
+\contentsline {subsection}{13) What is "genetic architecture" in the context of diseases and traits? What methods do we have for understanding genetic architecture and how would you characterize the relative power and resolution among these tools? What practical reasons are there for having a good understanding of it? What if any value is there in knowing general features of architecture in the absence of complete and detailed knowledge?}{17}{subsection*.17}
+\contentsline {subsection}{14) What are the expected relationships between allele frequency spectrum, penetrance, and prevalence of genetic disease?}{17}{subsection*.18}
+\contentsline {subsection}{15) What are the assumptions of the polygenic model of quantitative traits and of binary (disease) traits? What are alternative models?}{18}{subsection*.19}
+\contentsline {section}{Population and Evolutionary Genetics}{19}{section*.20}
+\contentsline {subsection}{27. Genome structure: Describe major features of the structure of mammalian genomes (e.g. genome size, nucleotide composition, gene families, repetitive elements, small noncoding RNAs, centromeres and telomeres) and hypothesized mechanisms affecting their evolution.}{19}{subsection*.21}
+\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{20}{section*.22}
+\contentsline {section}{Gene Regulation and Human Phenotypes}{20}{section*.23}
+\contentsline {section}{Study Design and Statistical Data Analysis}{20}{section*.24}
 \contentsfinish 
