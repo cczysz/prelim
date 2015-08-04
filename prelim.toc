@@ -10,11 +10,12 @@
 \contentsline {section}{Mapping}{12}{section*.10}
 \contentsline {subsection}{9. What is the difference between an odds ratio and relative risk? When would you use each and how might these relate to the concept of heritability in a genetic study? }{12}{subsection*.11}
 \contentsline {subsection}{10. What are the differences between quantitative and qualitative trait mapping, correlated phenotypes, multi-trait mapping?}{14}{subsection*.12}
-\contentsline {subsection}{12. Describe the impact of using subjects with varied degrees of relatedness.}{15}{subsection*.13}
-\contentsline {section}{Genetic Architecture of Human Phenotypes}{16}{section*.14}
-\contentsline {section}{Population and Evolutionary Genetics}{16}{section*.15}
-\contentsline {subsection}{27. Genome structure: Describe major features of the structure of mammalian genomes (e.g. genome size, nucleotide composition, gene families, repetitive elements, small noncoding RNAs, centromeres and telomeres) and hypothesized mechanisms affecting their evolution.}{16}{subsection*.16}
-\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{17}{section*.17}
-\contentsline {section}{Gene Regulation and Human Phenotypes}{17}{section*.18}
-\contentsline {section}{Study Design and Statistical Data Analysis}{17}{section*.19}
+\contentsline {subsection}{11. Describe the impact of using subjects with varied degrees of relatedness.}{15}{subsection*.13}
+\contentsline {subsection}{12. What are the strategies used to identify causal variants within an LD block associated with a trait? How do you assign a target gene as connected to a noncoding variant associated with a trait? How do you prioritize variants as likely causal/ how do you experimentally test them? }{16}{subsection*.14}
+\contentsline {section}{Genetic Architecture of Human Phenotypes}{17}{section*.15}
+\contentsline {section}{Population and Evolutionary Genetics}{17}{section*.16}
+\contentsline {subsection}{27. Genome structure: Describe major features of the structure of mammalian genomes (e.g. genome size, nucleotide composition, gene families, repetitive elements, small noncoding RNAs, centromeres and telomeres) and hypothesized mechanisms affecting their evolution.}{17}{subsection*.17}
+\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{18}{section*.18}
+\contentsline {section}{Gene Regulation and Human Phenotypes}{18}{section*.19}
+\contentsline {section}{Study Design and Statistical Data Analysis}{18}{section*.20}
 \contentsfinish 
