@@ -8,9 +8,10 @@
 \contentsline {subsection}{7. Define epistasis. Describe approaches that allow epistasis to be detected or quantified. Describe some biological mechanisms that can produce epistasis. Discuss the implications of epistasis for efforts to map the genetic causes of phenotypes. Discuss the potential implications of epistasis for the evolutionary process.}{11}{subsection*.8}
 \contentsline {subsection}{8. Define heritability. Describe methods used to quantify the heritability of a phenotype. Discuss the value and limitations of heritability as a descriptor of the extent to which a phenotype has genetic causes. Describe the "missing heritability problem" and its potential explanations.}{12}{subsection*.9}
 \contentsline {section}{Mapping}{13}{section*.10}
-\contentsline {subsection}{9. What is the difference between an odds ratio and relative risk? When would you use each and how might these relate to the concept of heritability in a genetic study? }{13}{subsection*.11}
+\contentsline {subsection}{9. What is the difference between an odds ratio and relative risk? When would you use each and how might these relate to the concept of heritability in a genetic study?}{13}{subsection*.11}
 \contentsline {subsection}{10. What are the differences between quantitative and qualitative trait mapping, correlated phenotypes, multi-trait mapping?}{15}{subsection*.12}
 \contentsline {subsection}{11. Describe the impact of using subjects with varied degrees of relatedness in an association study. How can this be addressed?}{16}{subsection*.13}
+<<<<<<< HEAD
 \contentsline {subsection}{12. What are the strategies used to identify causal variants within an LD block associated with a trait? How do you assign a target gene as connected to a noncoding variant associated with a trait? How do you prioritize variants as likely causal/ how do you experimentally test them? }{17}{subsection*.14}
 \contentsline {subsection}{12. Describe the impact of using subjects with varied degrees of relatedness.}{17}{subsection*.15}
 \contentsline {section}{Genetic Architecture of Human Phenotypes}{18}{section*.16}
@@ -34,4 +35,28 @@
 \contentsline {subsection}{48. What issues affect your assessment of whether an observed association is likely to be real? }{30}{subsection*.34}
 \contentsline {subsection}{49. Describe the principles underlying the use of False Discovery Rates in Genomic studies. }{31}{subsection*.35}
 \contentsline {subsection}{50. Describe Bayes Theorem and be familiar with its application in genetics. }{32}{subsection*.36}
+=======
+\contentsline {subsection}{12. What are the strategies used to identify causal variants within an LD block associated with a trait? How do you assign a target gene as connected to a noncoding variant associated with a trait? How do you prioritize variants as likely causal/ how do you experimentally test them?}{17}{subsection*.14}
+\contentsline {section}{Genetic Architecture of Human Phenotypes}{18}{section*.15}
+\contentsline {subsection}{13) What is "genetic architecture" in the context of diseases and traits? What methods do we have for understanding genetic architecture and how would you characterize the relative power and resolution among these tools? What practical reasons are there for having a good understanding of it? What if any value is there in knowing general features of architecture in the absence of complete and detailed knowledge?}{18}{subsection*.16}
+\contentsline {subsection}{14) What are the expected relationships between allele frequency spectrum, penetrance, and prevalence of genetic disease?}{18}{subsection*.17}
+\contentsline {subsection}{15) What are the assumptions of the polygenic model of quantitative traits and of binary (disease) traits? What are alternative models?}{19}{subsection*.18}
+\contentsline {section}{Population and Evolutionary Genetics}{20}{section*.19}
+\contentsline {subsection}{27. Genome structure: Describe major features of the structure of mammalian genomes (e.g. genome size, nucleotide composition, gene families, repetitive elements, small noncoding RNAs, centromeres and telomeres) and hypothesized mechanisms affecting their evolution.}{20}{subsection*.20}
+\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{21}{section*.21}
+\contentsline {section}{Gene Regulation and Human Phenotypes}{21}{section*.22}
+\contentsline {section}{Study Design and Statistical Data Analysis}{21}{section*.23}
+\contentsline {subsection}{39. Normalization of genomic data: why it is needed and what assumptions are required.}{21}{subsection*.24}
+\contentsline {subsection}{40. Accounting for confounding factors (e.g., batch effect) in genomic data: methods to test and correct for such effects.}{22}{subsection*.25}
+\contentsline {subsection}{41. Effective design for genomic studies (how to replicate? how to account for confounding factors? when and how to pool samples? variance vs. bias).}{23}{subsection*.26}
+\contentsline {subsection}{42. Be familiar with the use of Principal Components Analysis (and related dimension reduction techniques) in genetic applications.}{24}{subsection*.27}
+\contentsline {subsection}{43. Be familiar with methods for identifying population structure and admixture.}{25}{subsection*.28}
+\contentsline {subsection}{44. Genotype imputation: how does it work, how is it used?}{26}{subsection*.29}
+\contentsline {subsection}{45. What is a Hidden Markov Model?}{27}{subsection*.30}
+\contentsline {subsection}{46. Describe the principles behind statistical methods for inferring haplotypic phase from simple pedigrees (eg parent-child trios), and samples of unrelated individuals.}{28}{subsection*.31}
+\contentsline {subsection}{47. Describe how to fit a linear model and test for significance of effects. What does a p value of 0.05 (or 0.01, or any other value) mean?}{29}{subsection*.32}
+\contentsline {subsection}{48. What issues affect your assessment of whether an observed association is likely to be real?}{30}{subsection*.33}
+\contentsline {subsection}{49. Describe the principles underlying the use of False Discovery Rates in Genomic studies.}{31}{subsection*.34}
+\contentsline {subsection}{50. Describe Bayes Theorem and be familiar with its application in genetics.}{32}{subsection*.35}
+>>>>>>> origin/master
 \contentsfinish 
