@@ -16,21 +16,29 @@
 \contentsline {subsection}{13) What is "genetic architecture" in the context of diseases and traits? What methods do we have for understanding genetic architecture and how would you characterize the relative power and resolution among these tools? What practical reasons are there for having a good understanding of it? What if any value is there in knowing general features of architecture in the absence of complete and detailed knowledge?}{18}{subsection*.16}
 \contentsline {subsection}{14) What are the expected relationships between allele frequency spectrum, penetrance, and prevalence of genetic disease?}{18}{subsection*.17}
 \contentsline {subsection}{15) What are the assumptions of the polygenic model of quantitative traits and of binary (disease) traits? What are alternative models?}{19}{subsection*.18}
-\contentsline {section}{Population and Evolutionary Genetics}{20}{section*.19}
-\contentsline {subsection}{27. Genome structure: Describe major features of the structure of mammalian genomes (e.g. genome size, nucleotide composition, gene families, repetitive elements, small noncoding RNAs, centromeres and telomeres) and hypothesized mechanisms affecting their evolution.}{20}{subsection*.20}
-\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{21}{section*.21}
-\contentsline {section}{Gene Regulation and Human Phenotypes}{21}{section*.22}
-\contentsline {section}{Study Design and Statistical Data Analysis}{21}{section*.23}
-\contentsline {subsection}{39. Normalization of genomic data: why it is needed and what assumptions are required.}{21}{subsection*.24}
-\contentsline {subsection}{40. Accounting for confounding factors (e.g., batch effect) in genomic data: methods to test and correct for such effects.}{22}{subsection*.25}
-\contentsline {subsection}{41. Effective design for genomic studies (how to replicate? how to account for confounding factors? when and how to pool samples? variance vs. bias).}{23}{subsection*.26}
-\contentsline {subsection}{42. Be familiar with the use of Principal Components Analysis (and related dimension reduction techniques) in genetic applications.}{24}{subsection*.27}
-\contentsline {subsection}{43. Be familiar with methods for identifying population structure and admixture.}{25}{subsection*.28}
-\contentsline {subsection}{44. Genotype imputation: how does it work, how is it used?}{26}{subsection*.29}
-\contentsline {subsection}{45. What is a Hidden Markov Model?}{27}{subsection*.30}
-\contentsline {subsection}{46. Describe the principles behind statistical methods for inferring haplotypic phase from simple pedigrees (eg parent-child trios), and samples of unrelated individuals.}{28}{subsection*.31}
-\contentsline {subsection}{47. Describe how to fit a linear model and test for significance of effects. What does a p value of 0.05 (or 0.01, or any other value) mean?}{29}{subsection*.32}
-\contentsline {subsection}{48. What issues affect your assessment of whether an observed association is likely to be real?}{30}{subsection*.33}
-\contentsline {subsection}{49. Describe the principles underlying the use of False Discovery Rates in Genomic studies.}{31}{subsection*.34}
-\contentsline {subsection}{50. Describe Bayes Theorem and be familiar with its application in genetics.}{32}{subsection*.35}
+\contentsline {subsection}{16. Discuss and contrast the common versus rare allele hypotheses to explain the genetic architecture of human diseases. What are the implications of each hypothesis for mapping strategies, including association studies and large-scale sequencing efforts?}{20}{subsection*.19}
+\contentsline {subsection}{17. How noncoding variants lead to phenotypic variation? What do we know about the role of enhancers in Mendelian disease? What's the evidence for enhancer variation in complex disease? Do enhancer variants have small or large effects n disease phenotypes?}{21}{subsection*.20}
+\contentsline {section}{Population and Evolutionary Genetics}{22}{section*.21}
+\contentsline {subsection}{27. Genome structure: Describe major features of the structure of mammalian genomes (e.g. genome size, nucleotide composition, gene families, repetitive elements, small noncoding RNAs, centromeres and telomeres) and hypothesized mechanisms affecting their evolution.}{22}{subsection*.22}
+\contentsline {section}{Molecular Mechanisms and Model Organisms in Human Genetics}{23}{section*.23}
+\contentsline {section}{Gene Regulation and Human Phenotypes}{23}{section*.24}
+\contentsline {subsection}{33. Critically review the evidence and mechanisms of transgenerational epigenetic inheritance.}{23}{subsection*.25}
+\contentsline {subsection}{34. Discuss the theoretical impact of epigenetic phenomena on association studies.}{24}{subsection*.26}
+\contentsline {subsection}{35. Define eQTL mapping. Discuss the insight we gained from eQTL mapping on gene regulation, on the genetic architecture of phenotypes. Discuss their utility for understanding the genetic bases of human diseases.}{25}{subsection*.27}
+\contentsline {subsection}{36. Histone modifications: what we know about their role in gene regulation.}{26}{subsection*.28}
+\contentsline {subsection}{37. Network motifs in biology. Examples of regulatory circuits and their function.}{27}{subsection*.29}
+\contentsline {subsection}{38. Robustness and redundancy in biological functions. How do they evolve and how are they being maintained?}{28}{subsection*.30}
+\contentsline {section}{Study Design and Statistical Data Analysis}{29}{section*.31}
+\contentsline {subsection}{39. Normalization of genomic data: why it is needed and what assumptions are required.}{29}{subsection*.32}
+\contentsline {subsection}{40. Accounting for confounding factors (e.g., batch effect) in genomic data: methods to test and correct for such effects.}{30}{subsection*.33}
+\contentsline {subsection}{41. Effective design for genomic studies (how to replicate? how to account for confounding factors? when and how to pool samples? variance vs. bias).}{31}{subsection*.34}
+\contentsline {subsection}{42. Be familiar with the use of Principal Components Analysis (and related dimension reduction techniques) in genetic applications.}{32}{subsection*.35}
+\contentsline {subsection}{43. Be familiar with methods for identifying population structure and admixture.}{33}{subsection*.36}
+\contentsline {subsection}{44. Genotype imputation: how does it work, how is it used?}{34}{subsection*.37}
+\contentsline {subsection}{45. What is a Hidden Markov Model?}{35}{subsection*.38}
+\contentsline {subsection}{46. Describe the principles behind statistical methods for inferring haplotypic phase from simple pedigrees (eg parent-child trios), and samples of unrelated individuals.}{36}{subsection*.39}
+\contentsline {subsection}{47. Describe how to fit a linear model and test for significance of effects. What does a p value of 0.05 (or 0.01, or any other value) mean?}{37}{subsection*.40}
+\contentsline {subsection}{48. What issues affect your assessment of whether an observed association is likely to be real?}{38}{subsection*.41}
+\contentsline {subsection}{49. Describe the principles underlying the use of False Discovery Rates in Genomic studies.}{39}{subsection*.42}
+\contentsline {subsection}{50. Describe Bayes Theorem and be familiar with its application in genetics.}{40}{subsection*.43}
 \contentsfinish 
