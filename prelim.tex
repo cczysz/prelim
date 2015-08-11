@@ -168,7 +168,7 @@ Mutations in several genes can lead to familial hypercholesterolemia, high level
 What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}
 \label{subsec:02} 
 
-\begin{define}[Identity by descent]
+\begin{define}[Identity By Descent (IBD)]
 Two alleles at the same locus that are descended from the same ancestral allele within the recent past. Can be 0, 1, or 2 depending on how many ancestral alleles shared between individuals.
 \end{define}
 
@@ -182,7 +182,7 @@ Two alleles at the same locus that are descended from the same ancestral allele 
 $f_{xy}$: The probability that two alleles, one from X and the other from Y, are IBD.
 \end{define}
 
-\begin{figure}
+\begin{figure}[h]
 \includegraphics[scale=0.5]{./figs/kincoeff}
 \end{figure}
 
@@ -193,11 +193,15 @@ $R_n$, the probability of sharing $n \in \{0,1,2\}$ IBD alleles. Mean relatednes
 \noindent
 \textbf{Relationship between Coefficients}
 \[f_{xy} = \frac{1}{2}\bar{r}\]
-\begin{figure}[h!]
+\begin{figure}[H]
 \includegraphics[scale=0.5]{./figs/kinrelate}
 \caption{Relationship between Kinship and Relatedness coefficients}
 \end{figure}
 
+\noindent
+\textbf{Estimation without Pedigrees}
+
+Genotype data can be used to estimate the inbreeding coefficient between individuals using computational tools such as PLINK.
 
 \newpage
 \subsection{3.
@@ -339,7 +343,7 @@ Calculate LOD scores by finding the MLE of $\theta$
 \noindent
 \textbf{Nonparametric Linkage Mapping}
 
-Used when the underlying model is unknown. Use affected relatives in order to leverage degree of allele-sharing.
+Used when the underlying model is unknown. Use affected relatives in order to leverage degree of allele-sharing. Estimate IBD between affected relatives. Look for alleles shared between affected individuals more often than chance.
 
 \noindent
 \textbf{Linkage mapping usefulness}
@@ -480,6 +484,11 @@ Recall that \[ \text{RR} = \frac{\pi_1}{\pi_2} \] and \[ \text{OR} = \frac{\pi_1
 
 Thus, \[ OR = RR \times \frac{1-\pi_2}{1-\pi_1} \] and when the probabilities of success are both small, the RR and the OR are very similar.
  
+ \noindent
+ \textbf{Odds Ratio and Heritability}
+ 
+ In GWAS, many variants show low effect sizes with OR between 1 and 1.3. However, GWAS might miss variants with very low OR (e.g 1.05), thus contributing to the missing heritability problem. 
+ 
  \textbf{Sources}
  
  Lander and Schork. "Genetic Dissection of Complex Traits" 1994. \emph{Science}
@@ -504,13 +513,6 @@ Qualitative trait mapping requires
 \item Inbred line for crosses
 \end{itemize}
 
-Quantitative trait mapping requires
-
-<<<<<<< HEAD
-\subsection{11) Describe the impact of using subjects with varied degrees of relatedness in an association study. How can this be addressed?}
-
-\subsection{12) What are the strategies used to identify causal variants within an LD block associated with a trait? How do you assign a target gene as connected to a noncoding variant associated with a trait? How do you prioritize variants as likely causal/ how do you experimentally test them?}
-=======
 \newpage
 \subsection{11. 
 Describe the impact of using subjects with varied degrees of relatedness in an association study. How can this be addressed?}
@@ -524,7 +526,6 @@ Related genomes can be used to correct for sequencing errors (differentiating a 
 
 Family-based association tests are performed using the transmission distortion test. 
 
-<<<<<<< HEAD
 \textbf{Kinship Matrix}
 
 The relatedness between subjects is calculated in a kinship matrix, an nxn matrix of correlations between genotyped markers.
@@ -533,15 +534,11 @@ The relatedness between subjects is calculated in a kinship matrix, an nxn matri
 \subsection{12.
 What are the strategies used to identify causal variants within an LD block associated with a trait? How do you assign a target gene as connected to a noncoding variant associated with a trait? How do you prioritize variants as likely causal/ how do you experimentally test them?
 }
-=======
-\subsection{12. 
-Describe the impact of using subjects with varied degrees of relatedness.}
->>>>>>> origin/master
->>>>>>> origin/master
 
 \newpage
 \section{Genetic Architecture of Human Phenotypes}\label{sec:genarch}
 
+\newpage
 \subsection{13) What is "genetic architecture" in the context of diseases and traits? What methods do we have for understanding genetic architecture and how would you characterize the relative power and resolution among these tools? What practical reasons are there for having a good understanding of it? What if any value is there in knowing general features of architecture in the absence of complete and detailed knowledge?}
 
 \subsection{14) What are the expected relationships between allele frequency spectrum, penetrance, and prevalence of genetic disease?}
