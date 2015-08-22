@@ -1,43 +1,41 @@
-\contentsline {section}{General Genetic Principles}{5}{section*.1}
-\contentsline {subsection}{1. Explain the distinction between allelic heterogeneity, genetic (locus) heterogeneity, and clinical heterogeneity. Give examples of each.}{5}{subsection*.2}
-\contentsline {subsection}{2. What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}{6}{subsection*.3}
-\contentsline {subsection}{3. What are the key distinguishing characteristics of pedigrees segregating autosomal dominant, autosomal recessive, X-linked, Y-linked, and mitochondrial diseases?}{7}{subsection*.4}
-\contentsline {subsection}{4. Explain the "non-Mendelian" concepts of uniparental disomy and imprinting. How would these be manifested in pedigrees and how are they demonstrated at the cellular or molecular levels?}{8}{subsection*.5}
-\contentsline {subsection}{5. What evidence is there for the presence of modifier loci? How is this related to the concept of epistasis and how is it distinct (or not) from polygenic and other models of inheritance?}{10}{subsection*.6}
-\contentsline {subsection}{6. What are distinctions among the concepts linkage, linkage disequilibrium, and association? Under what circumstances would each be preferable for genetic mapping? Consider both sample composition and types of diseases.}{11}{subsection*.7}
-\contentsline {subsection}{7. Define epistasis. Describe approaches that allow epistasis to be detected or quantified. Describe some biological mechanisms that can produce epistasis. Discuss the implications of epistasis for efforts to map the genetic causes of phenotypes. Discuss the potential implications of epistasis for the evolutionary process.}{12}{subsection*.8}
-\contentsline {subsection}{8. Define heritability. Describe methods used to quantify the heritability of a phenotype. Discuss the value and limitations of heritability as a descriptor of the extent to which a phenotype has genetic causes. Describe the "missing heritability problem" and its potential explanations.}{13}{subsection*.9}
-\contentsline {section}{Mapping}{14}{section*.10}
-\contentsline {subsection}{9. What is the difference between an odds ratio and relative risk? When would you use each and how might these relate to the concept of heritability in a genetic study?}{14}{subsection*.11}
-\contentsline {subsection}{10. What are the differences between quantitative and qualitative trait mapping, correlated phenotypes, multi-trait mapping?}{16}{subsection*.12}
-\contentsline {subsection}{11. Describe the impact of using subjects with varied degrees of relatedness in an association study. How can this be addressed?}{17}{subsection*.13}
-\contentsline {subsection}{12. What are the strategies used to identify causal variants within an LD block associated with a trait? How do you assign a target gene as connected to a noncoding variant associated with a trait? How do you prioritize variants as likely causal/ how do you experimentally test them?}{18}{subsection*.14}
-\contentsline {section}{Genetic Architecture of Human Phenotypes}{19}{section*.15}
-\contentsline {subsection}{13) What is "genetic architecture" in the context of diseases and traits? What methods do we have for understanding genetic architecture and how would you characterize the relative power and resolution among these tools? What practical reasons are there for having a good understanding of it? What if any value is there in knowing general features of architecture in the absence of complete and detailed knowledge?}{19}{subsection*.16}
-\contentsline {subsection}{14) What are the expected relationships between allele frequency spectrum, penetrance, and prevalence of genetic disease?}{20}{subsection*.17}
-\contentsline {subsection}{15) What are the assumptions of the polygenic model of quantitative traits and of binary (disease) traits? What are alternative models?}{21}{subsection*.18}
-\contentsline {subsection}{16. Discuss and contrast the common versus rare allele hypotheses to explain the genetic architecture of human diseases. What are the implications of each hypothesis for mapping strategies, including association studies and large-scale sequencing efforts?}{22}{subsection*.19}
-\contentsline {subsection}{17. How noncoding variants lead to phenotypic variation? What do we know about the role of enhancers in Mendelian disease? What's the evidence for enhancer variation in complex disease? Do enhancer variants have small or large effects n disease phenotypes?}{23}{subsection*.20}
-\contentsline {section}{Population and Evolutionary Genetics}{24}{section*.21}
-\contentsline {subsection}{27. Genome structure: Describe major features of the structure of mammalian genomes (e.g. genome size, nucleotide composition, gene families, repetitive elements, small noncoding RNAs, centromeres and telomeres) and hypothesized mechanisms affecting their evolution.}{24}{subsection*.22}
-\contentsline {section}{Gene Regulation and Human Phenotypes}{25}{section*.23}
-\contentsline {subsection}{33. Critically review the evidence and mechanisms of transgenerational epigenetic inheritance.}{25}{subsection*.24}
-\contentsline {subsection}{34. Discuss the theoretical impact of epigenetic phenomena on association studies.}{26}{subsection*.25}
-\contentsline {subsection}{35. Define eQTL mapping. Discuss the insight we gained from eQTL mapping on gene regulation, on the genetic architecture of phenotypes. Discuss their utility for understanding the genetic bases of human diseases.}{27}{subsection*.26}
-\contentsline {subsection}{36. Histone modifications: what we know about their role in gene regulation.}{28}{subsection*.27}
-\contentsline {subsection}{37. Network motifs in biology. Examples of regulatory circuits and their function.}{29}{subsection*.28}
-\contentsline {subsection}{38. Robustness and redundancy in biological functions. How do they evolve and how are they being maintained?}{30}{subsection*.29}
-\contentsline {section}{Study Design and Statistical Data Analysis}{31}{section*.30}
-\contentsline {subsection}{39. Normalization of genomic data: why it is needed and what assumptions are required.}{31}{subsection*.31}
-\contentsline {subsection}{40. Accounting for confounding factors (e.g., batch effect) in genomic data: methods to test and correct for such effects.}{32}{subsection*.32}
-\contentsline {subsection}{41. Effective design for genomic studies (how to replicate? how to account for confounding factors? when and how to pool samples? variance vs. bias).}{33}{subsection*.33}
-\contentsline {subsection}{42. Be familiar with the use of Principal Components Analysis (and related dimension reduction techniques) in genetic applications.}{34}{subsection*.34}
-\contentsline {subsection}{43. Be familiar with methods for identifying population structure and admixture.}{35}{subsection*.35}
-\contentsline {subsection}{44. Genotype imputation: how does it work, how is it used?}{36}{subsection*.36}
-\contentsline {subsection}{45. What is a Hidden Markov Model?}{37}{subsection*.37}
-\contentsline {subsection}{46. Describe the principles behind statistical methods for inferring haplotypic phase from simple pedigrees (eg parent-child trios), and samples of unrelated individuals.}{38}{subsection*.38}
-\contentsline {subsection}{47. Describe how to fit a linear model and test for significance of effects. What does a p value of 0.05 (or 0.01, or any other value) mean?}{39}{subsection*.39}
-\contentsline {subsection}{48. What issues affect your assessment of whether an observed association is likely to be real?}{40}{subsection*.40}
-\contentsline {subsection}{49. Describe the principles underlying the use of False Discovery Rates in Genomic studies.}{41}{subsection*.41}
-\contentsline {subsection}{50. Describe Bayes Theorem and be familiar with its application in genetics.}{42}{subsection*.42}
+\contentsline {section}{General Genetic Principles}{4}{section*.1}
+\contentsline {subsection}{1. Explain the distinction between allelic heterogeneity, genetic (locus) heterogeneity, and clinical heterogeneity. Give examples of each.}{4}{subsection*.2}
+\contentsline {subsection}{2. What is the relationship between the inbreeding coefficient, kinship coefficient, and coefficient of relatedness? How are they calculated in pedigrees? Can they be estimated in the absence of pedigree information?}{5}{subsection*.3}
+\contentsline {subsection}{3. What are the key distinguishing characteristics of pedigrees segregating autosomal dominant, autosomal recessive, X-linked, Y-linked, and mitochondrial diseases?}{6}{subsection*.4}
+\contentsline {subsection}{4. Explain the "non-Mendelian" concepts of uniparental disomy and imprinting. How would these be manifested in pedigrees and how are they demonstrated at the cellular or molecular levels?}{7}{subsection*.5}
+\contentsline {subsection}{5. What evidence is there for the presence of modifier loci? How is this related to the concept of epistasis and how is it distinct (or not) from polygenic and other models of inheritance?}{9}{subsection*.6}
+\contentsline {subsection}{6. What are distinctions among the concepts linkage, linkage disequilibrium, and association? Under what circumstances would each be preferable for genetic mapping? Consider both sample composition and types of diseases.}{10}{subsection*.7}
+\contentsline {subsection}{7. Define epistasis. Describe approaches that allow epistasis to be detected or quantified. Describe some biological mechanisms that can produce epistasis. Discuss the implications of epistasis for efforts to map the genetic causes of phenotypes. Discuss the potential implications of epistasis for the evolutionary process.}{11}{subsection*.8}
+\contentsline {subsection}{8. Define heritability. Describe methods used to quantify the heritability of a phenotype. Discuss the value and limitations of heritability as a descriptor of the extent to which a phenotype has genetic causes. Describe the "missing heritability problem" and its potential explanations.}{12}{subsection*.9}
+\contentsline {section}{Mapping}{13}{section*.10}
+\contentsline {subsection}{9. What is the difference between an odds ratio and relative risk? When would you use each and how might these relate to the concept of heritability in a genetic study?}{13}{subsection*.11}
+\contentsline {subsection}{10. What are the differences between quantitative and qualitative trait mapping, correlated phenotypes, multi-trait mapping?}{15}{subsection*.12}
+\contentsline {subsection}{11. Describe the impact of using subjects with varied degrees of relatedness in an association study. How can this be addressed?}{16}{subsection*.13}
+\contentsline {subsection}{12. What are the strategies used to identify causal variants within an LD block associated with a trait? How do you assign a target gene as connected to a noncoding variant associated with a trait? How do you prioritize variants as likely causal/ how do you experimentally test them?}{17}{subsection*.14}
+\contentsline {section}{Genetic Architecture of Human Phenotypes}{18}{section*.15}
+\contentsline {subsection}{13) What is "genetic architecture" in the context of diseases and traits? What methods do we have for understanding genetic architecture and how would you characterize the relative power and resolution among these tools? What practical reasons are there for having a good understanding of it? What if any value is there in knowing general features of architecture in the absence of complete and detailed knowledge?}{18}{subsection*.16}
+\contentsline {subsection}{14) What are the expected relationships between allele frequency spectrum, penetrance, and prevalence of genetic disease?}{19}{subsection*.17}
+\contentsline {subsection}{15) What are the assumptions of the polygenic model of quantitative traits and of binary (disease) traits? What are alternative models?}{20}{subsection*.18}
+\contentsline {subsection}{16. Discuss and contrast the common versus rare allele hypotheses to explain the genetic architecture of human diseases. What are the implications of each hypothesis for mapping strategies, including association studies and large-scale sequencing efforts?}{21}{subsection*.19}
+\contentsline {subsection}{17. How noncoding variants lead to phenotypic variation? What do we know about the role of enhancers in Mendelian disease? What's the evidence for enhancer variation in complex disease? Do enhancer variants have small or large effects n disease phenotypes?}{22}{subsection*.20}
+\contentsline {section}{Gene Regulation and Human Phenotypes}{22}{section*.21}
+\contentsline {subsection}{33. Critically review the evidence and mechanisms of transgenerational epigenetic inheritance.}{22}{subsection*.22}
+\contentsline {subsection}{34. Discuss the theoretical impact of epigenetic phenomena on association studies.}{23}{subsection*.23}
+\contentsline {subsection}{35. Define eQTL mapping. Discuss the insight we gained from eQTL mapping on gene regulation, on the genetic architecture of phenotypes. Discuss their utility for understanding the genetic bases of human diseases.}{24}{subsection*.24}
+\contentsline {subsection}{36. Histone modifications: what we know about their role in gene regulation.}{25}{subsection*.25}
+\contentsline {subsection}{37. Network motifs in biology. Examples of regulatory circuits and their function.}{26}{subsection*.26}
+\contentsline {subsection}{38. Robustness and redundancy in biological functions. How do they evolve and how are they being maintained?}{27}{subsection*.27}
+\contentsline {section}{Study Design and Statistical Data Analysis}{28}{section*.28}
+\contentsline {subsection}{39. Normalization of genomic data: why it is needed and what assumptions are required.}{28}{subsection*.29}
+\contentsline {subsection}{40. Accounting for confounding factors (e.g., batch effect) in genomic data: methods to test and correct for such effects.}{29}{subsection*.30}
+\contentsline {subsection}{41. Effective design for genomic studies (how to replicate? how to account for confounding factors? when and how to pool samples? variance vs. bias).}{30}{subsection*.31}
+\contentsline {subsection}{42. Be familiar with the use of Principal Components Analysis (and related dimension reduction techniques) in genetic applications.}{31}{subsection*.32}
+\contentsline {subsection}{43. Be familiar with methods for identifying population structure and admixture.}{32}{subsection*.33}
+\contentsline {subsection}{44. Genotype imputation: how does it work, how is it used?}{33}{subsection*.34}
+\contentsline {subsection}{45. What is a Hidden Markov Model?}{34}{subsection*.35}
+\contentsline {subsection}{46. Describe the principles behind statistical methods for inferring haplotypic phase from simple pedigrees (eg parent-child trios), and samples of unrelated individuals.}{35}{subsection*.36}
+\contentsline {subsection}{47. Describe how to fit a linear model and test for significance of effects. What does a p value of 0.05 (or 0.01, or any other value) mean?}{36}{subsection*.37}
+\contentsline {subsection}{48. What issues affect your assessment of whether an observed association is likely to be real?}{37}{subsection*.38}
+\contentsline {subsection}{49. Describe the principles underlying the use of False Discovery Rates in Genomic studies.}{38}{subsection*.39}
+\contentsline {subsection}{50. Describe Bayes Theorem and be familiar with its application in genetics.}{39}{subsection*.40}
 \contentsfinish 
