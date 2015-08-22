@@ -659,10 +659,22 @@ Genes which share common ancestors, one example being the globin family of genes
 
 Standardization and normalization are important when considering data from the same biological source across different technical replicates. Technical variation can introduce unwanted noise onto an underlying biological distribution, so removing that noise is the goal.
 
-Normalization casts data into a predefined range while standardization casts the data to have mean 0 and variance 1.
+Normalization casts data into a predefined range while standardization casts the data to have mean 0 and variance 1. Applying both yields the standard normal distribution used in Z-tests. 
+
+Normalization is necessary for allowing comparisons of biological and technical replicates. Despite coming from the same source type, random variation can alter the distribution of the measurements without reflecting differences in biology.
 
 \newpage
 \subsection{40. Accounting for confounding factors (e.g., batch effect) in genomic data: methods to test and correct for such effects.}
+\begin{define}[Batch]
+Variables differing between samples where the difference is not due to measured variables. Examples include sequencing machine, technician, etc.
+\end{define}
+
+Batches can introduce bias in measurements, and must be minimized in experimental design. However, if there is a batch effect in the data, identifying and correcting are important.
+
+\noindent
+\textbf{Identifying}
+
+The easiest way to identify batches is by keeping records of all sample preparation and including them as cofactors in the linear model. Computationally, PCA and clustering methods can identify batches to include as factors. 
 
 \newpage
 \subsection{41. Effective design for genomic studies (how to replicate? how to account for confounding factors? when and how to pool samples? variance vs. bias).}
