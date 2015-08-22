@@ -663,6 +663,15 @@ Normalization casts data into a predefined range while standardization casts the
 
 Normalization is necessary for allowing comparisons of biological and technical replicates. Despite coming from the same source type, random variation can alter the distribution of the measurements without reflecting differences in biology.
 
+\noindent
+\textbf{Assumptions}
+
+\begin{itemize}
+	\item All samples share the same underlying distribution
+	\item Experimental treatments affect a small number of genes
+	\item Noise is additive
+\end{itemize}
+
 \newpage
 \subsection{40. Accounting for confounding factors (e.g., batch effect) in genomic data: methods to test and correct for such effects.}
 \begin{define}[Batch]
@@ -702,6 +711,33 @@ The easiest way to identify batches is by keeping records of all sample preparat
 
 \newpage
 \subsection{49. Describe the principles underlying the use of False Discovery Rates in Genomic studies.}
+
+FDR is a method used to correct for multiple testings, which inflate the Type I error rate as the number of tested hypotheses increases.
+
+In genetic tests, the likelihood of seeing a significant p-value increases as the number of tests increases (i.e. associations for 1,000,000 SNPs or 20,000 genes).
+
+The Benjamini-Hochberg method is the most widely-used. For independent null hypotheses $H_1 ... H_m$ and corresponding p-values $P_1 ... P_m$,
+
+\begin{itemize}
+	\item For an FDR $\alpha$, find the largest $k$ s.t. $P_k \leq \frac{k}{m}\alpha$
+	\item Then, reject all hypotheses $H_i$ for $i = 1,...,k$
+\end{itemize}
+
+In this way, the FDR represents the number of significant hits which are false, instead of the Type I proportion of false positives in all tests.
+
+\begin{tabular}{c cc|c}
+	  & Do not reject & Reject & Total \\ 
+ $H_0$ True & U & V & $m_0$ \\ 
+ $H_1$ True & T & S & $m_1$ \\ 
+	\hline Total & W & R & $m$ \\  
+\end{tabular} 
+
+A p-value significance cutoff measures Type I error as V/m, while q-values set the FDR at V/R.
+
+\textbf{Comparison with Family-wise error rate correction}
+
+The most common FWER correction is the Bonferroni correction, defined as $\alpha* = \frac{\alpha}{m}$, where $\alpha$ is the initial p-value significance and m is the number of hypothesis tests. This cutoff is much more conservative than FDR, in that fewer tests will be found significant, inflating the Type II error rate. FDR also gives tests greater power than Bonferroni corrections.
+
 
 \newpage
 \subsection{50. Describe Bayes Theorem and be familiar with its application in genetics.}
