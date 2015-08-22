@@ -691,6 +691,18 @@ The easiest way to identify batches is by keeping records of all sample preparat
 \newpage
 \subsection{42. Be familiar with the use of Principal Components Analysis (and related dimension reduction techniques) in genetic applications.}
 
+PCA is a matrix decompositon method which yields orthogonal vectors along the axes of highest variance. PCs are calculated such that the first PC represents the axis of highest variance, with subsequent PCs representing lower variances.
+
+PCs can represent batch effects, especially with regard to population structure. If structure exists within a genetic matrix, the top PCs will capture much of the variation due to population, and points will cluster by population. 
+
+\textbf{Caveats}
+
+PCA is sensitive to differences in sample sizes.
+
+Can be unclear as to what each PC represents.
+
+Including too many in the model can remove signal instead of noise.
+
 \newpage
 \subsection{43. Be familiar with methods for identifying population structure and admixture.}
 
