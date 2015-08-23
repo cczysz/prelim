@@ -615,13 +615,20 @@ The polygenic model of quantitative traits assumes a polygenic phenotype is due 
 \textbf{Assumptions}
 
 \begin{itemize}
-\item Alleles have small, equal effects
+\item Alleles have small effects on phenotype
 \item Effects are additive
 \item No dominance
 \item No epistatic or gene by gene interactions
 \item Loci are independent, i.e. no linkage
 \item Environmental variance is minimal
 \end{itemize}
+
+\noindent
+\textbf{Binary Traits}
+
+Most disease phenotypes are classified as categorical variables. For example: has disease or doesn't have disease. Or any grades of disease severity. This seems different from polygenic traits which occupy a continuous range of phenotypic values.
+
+For many binary traits, there exists an underlying \emph{liability} which is polygenic in nature. This model assumes that, at a specific phenotypic value, the disease classifier switches from not diseased to diseased. In this way, individuals with phenotype values above the threshold are diseased, while those below are not diseased.
 
 \newpage
 \subsection{16. Discuss and contrast the common versus rare allele hypotheses to explain the genetic architecture of human diseases. What are the implications of each hypothesis for mapping strategies, including association studies and large-scale sequencing efforts?}
