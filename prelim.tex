@@ -177,7 +177,7 @@ Two alleles at the same locus that are descended from the same ancestral allele 
 \end{marginfigure}
 
 \begin{define}[Coefficient of Kinship]
-$f_{xy}$: The probability that two alleles, one from X and the other from Y, are IBD.
+$f_{xy}$: The probability that two alleles, one from person X and the other from person Y, are IBD.
 \end{define}
 
 \begin{figure}[h]
@@ -195,6 +195,18 @@ $R_n$, the probability of sharing $n \in \{0,1,2\}$ IBD alleles. Mean relatednes
 \includegraphics[scale=0.5]{./figs/kinrelate}
 \caption{Relationship between Kinship and Relatedness coefficients}
 \end{figure}
+
+\begin{define}[Inbreeding Coefficient]
+	$F_I$: The probability that two alleles of an individual are IBD. Since each allele is inherited from each parent, the inbreeding coefficient is equal to the coefficient of kinship for the parents. 
+\end{define}
+
+The inbreeding coefficient can capture deviations from HWE due to matings between relatives.
+
+\begin{tabular}{c|ccc}
+Genotype	& $A_1A_1$ & $A_1A_2$ & $A_2A_2$ \\ 
+\hline Frequency	& $p^2(1-F_I) + pF_I$ & $2pq(1-F_I)$ & $q^2(1-F_1) + qF_I$ \\ 
+Fitness	& 1 & $1-hs$ & $1-s$ \\ 
+\end{tabular} 
 
 \noindent
 \textbf{Estimation without Pedigrees}
@@ -488,19 +500,21 @@ Thus, \[ OR = RR \times \frac{1-\pi_2}{1-\pi_1} \] and when the probabilities of
 
 \textbf{Qualitative versus Quantitative Traits}
 
-Qualitative traits are those of categorical, rather than numeric, values. Coat color in rats is one example (black, white, or brown). Quantitative traits, on the other hand, are phenotypes which can be measured (tail length, in centimeters). Qualitative trait mapping is useful for Mendelian inheritance while quantitative trait mapping is better for traits with multiple underlying causative loci.
+Qualitative traits are those of categorical, rather than numeric, values. Coat color in rats is one example (black, white, or brown). Quantitative traits, on the other hand, are phenotypes which can be measured along a continuous range (tail length, in centimeters), assumed to be normally distributed within a population. Qualitative trait mapping is useful for Mendelian inheritance while quantitative trait mapping is better for traits with multiple underlying causative loci.
 
 \textbf{Trait Mapping}
 
 Trait mapping allows the interrogation of the genetic region associated with a phenotypic trait. 
 
-Qualitative trait mapping requires
+Qualitative trait mapping requires:
 
 \begin{itemize}
 \item Separate phenotypic categories
 \item Many genetic markers
 \item Inbred line for crosses
 \end{itemize}
+
+Quantitative trait mapping requires precise genotypes at many loci, since it measures the correlation between allele count and phenotype value.
 
 \newpage
 \subsection{11. Describe the impact of using subjects with varied degrees of relatedness in an association study. How can this be addressed?}
@@ -516,10 +530,15 @@ Family-based association tests are performed using the transmission distortion t
 
 \textbf{Kinship Matrix}
 
-The relatedness between subjects is calculated in a kinship matrix, an nxn matrix of correlations between genotyped markers.
+The relatedness between subjects is calculated in a kinship matrix, an $nxn$ matrix of correlations between genotyped markers. This matrix can be included as a covariate in a linear model to account for different relatedness between individuals.
+
+\noindent
+\textbf{Potential Impacts}
+
+In GWA or other association studies, having a high proportion of related individuals in the sample can yield spurious results, or mask true results, due to non-random differences in allele frequency. This problem is similar to having population structure, therefore identifying and removing the effects of relatedness is similar.
 
 \newpage
-\subsection{12. What are the strategies used to identify causal variants within an LD block associated with a trait? How do you assign a target gene as connected to a noncoding variant associated with a trait? How do you prioritize variants as likely causal/ how do you experimentally test them?}
+\subsection{12. What are the strategies used to identify causal variants within an LD block associated with a trait? How do you assign a target gene as connected to a non-coding variant associated with a trait? How do you prioritize variants as likely causal/ how do you experimentally test them?}
 
 Due to LD, many variants can be shown to associate with a particular phenotype. Also due to LD, the most associated variant may not be the causal variant, but in high LD with the causal variant. This usually arises from relatively low genotyping coverage (not all variants will be typed).
 
@@ -547,9 +566,11 @@ Functional genomic techniques can be used to assign variants to functional eleme
 
 \newpage
 \section{Genetic Architecture of Human Phenotypes}\label{sec:genarch}
-\subsection{13) What is "genetic architecture" in the context of diseases and traits? What methods do we have for understanding genetic architecture and how would you characterize the relative power and resolution among these tools? What practical reasons are there for having a good understanding of it? What if any value is there in knowing general features of architecture in the absence of complete and detailed knowledge?}
+\subsection{13. What is "genetic architecture" in the context of diseases and traits? What methods do we have for understanding genetic architecture and how would you characterize the relative power and resolution among these tools? What practical reasons are there for having a good understanding of it? What if any value is there in knowing general features of architecture in the absence of complete and detailed knowledge?}
 
-Genetic architecture refers to how genotype leads to phenotype. For diseases and traits, it can refer to genes, modifier loci, functional elements, etc.
+Genetic architecture refers to how natural genotypic features leads to phenotype. For diseases and traits, it can refer to genes, modifier loci, functional elements, etc. Additionally, the frequencies of each allele at each loci is accounted for.
+
+Different genetic architectures underlie the differences between simple and complex diseases. The former is causes by one allele, while the latter is due to a combination of alleles.
 
 \textbf{Methods}
 
@@ -562,9 +583,9 @@ Genetic architecture refers to how genotype leads to phenotype. For diseases and
 \noindent
 \textbf{Importance}
 
-Understanding the genetic architecture of a trait/disease of interest can inform proper study design. 
+Understanding the genetic architecture of a trait/disease of interest can inform proper study design.  
 \newpage
-\subsection{14) What are the expected relationships between allele frequency spectrum, penetrance, and prevalence of genetic disease?}
+\subsection{14. What are the expected relationships between allele frequency spectrum, penetrance, and prevalence of genetic disease?}
 
 \begin{define}[Allele frequency spectrum]
 AFS is defined as the frequency of all alleles of a given gene.
@@ -580,9 +601,14 @@ In a population, the prevalence of a disease is the proportion of individuals af
 For pedigrees, penetrance is the proportion of affected individuals given a particular genotype.
 \end{define}
 
+The prevalence of a disease can be estimated from its penetrance in a representative sample. Since penetrance is the proportion of affected individuals who have the risk allele, the population-wide prevalence is the product of the penetrance, population size, and allele frequency.
+
+There is an expectation that the more penetrant an disease-causing allele is, the stronger the selection against it, and the lower the frequency it will reach in a population. This assumption works well for Mendelian diseases, but is less important for complex disease where the underlying architecture can involve many loci of small effects. 
+
+These loci experience weak selection, making genetic drift the main driving force of allele frequency changes. 
 
 \newpage
-\subsection{15) What are the assumptions of the polygenic model of quantitative traits and of binary (disease) traits? What are alternative models?}
+\subsection{15. What are the assumptions of the polygenic model of quantitative traits and of binary (disease) traits? What are alternative models?}
 
 The polygenic model of quantitative traits assumes a polygenic phenotype is due to additive interactions of alleles at many loci. Each loci serves as a binomial random variable, and the sum of multiple loci result in a normal distribution describing the distribution of number of additive alleles in a population.
 
